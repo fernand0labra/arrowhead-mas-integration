@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contract xmlns="http://cdl/2018/01" xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+	
+	<context xml:lang="EN">
+		<keywords>contract negotation</keywords>
+	</context>
+
+
+
+	<interface protocol="COAP" address="coap://127.0.0.1/8888" >
+	
+		<method name="POST" id="indoortemperature" path="/publish">
+
+                    <request >
+                            <format> 
+					<encode name="JSON" mediaType= "--" version="0"/>
+					<security name="null" version="0"/>
+					<qos name="null" version="0"/> 
+					<semantic name="null" version="0"/>
+					<notation href="null"/> 
+				</format> 
+                              	<payload>	
+					<complextype type="null"/> 					
+                                         <element name="n" type="String" variation="name"/>
+                                         <element name="v" type="Float" variation="temperature" unit="Celsius"/>
+                                         <element name="u" type="String" variation="unit"/>
+                            		
+                                </payload>
+                                
+                                
+                         </request>
+                    
+			<response status="200">
+                            <format> 
+					<encode name="JSON" mediaType= "--" version="0"/>
+					<security name="null" version="0"/>
+					<qos name="null" version="0"/> 
+					<semantic name="null" version="0"/>
+					<notation href="null"/> 
+				</format> 
+                              	<payload>	
+					<complextype type="null"/> 					
+                                         <element name="n" type="String" variation="name"/>
+                                         <element name="v" type="Float" variation="temperature" unit="Celsius"/>
+                                         <element name="u" type="String" variation="unit"/>
+                            		
+                                </payload>
+                                
+                                
+                         </response>
+		</method>
+
+	</interface>
+</contract>

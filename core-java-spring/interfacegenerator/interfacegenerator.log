@@ -1,0 +1,1843 @@
+2022-06-29 10:29:33.036  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain on DESKTOP-L61QVFV with PID 14200 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator)
+2022-06-29 10:29:33.062  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-06-29 10:29:36.056 ERROR DESKTOP-L61QVFV --- [cLoggerConfig-4] c.z.h.p.HikariPool                       : HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: Access denied for user 'interface_generator'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at eu.arrowhead.common.log4j2.JDBCConnectionFactoryForLog4J2.getConnection(JDBCConnectionFactoryForLog4J2.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource$1.getConnection(FactoryMethodConnectionSource.java:105)
+	at org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource.getConnection(FactoryMethodConnectionSource.java:53)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.connectAndPrepare(JdbcDatabaseManager.java:567)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.connectAndStart(JdbcDatabaseManager.java:588)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.writeThrough(JdbcDatabaseManager.java:813)
+	at org.apache.logging.log4j.core.appender.db.AbstractDatabaseManager.write(AbstractDatabaseManager.java:264)
+	at org.apache.logging.log4j.core.appender.db.AbstractDatabaseAppender.append(AbstractDatabaseAppender.java:110)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:464)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.callAppenders(AsyncLoggerConfig.java:127)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:448)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:431)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.log(AsyncLoggerConfig.java:121)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.logToAsyncLoggerConfigsOnCurrentThread(AsyncLoggerConfig.java:169)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor$Log4jEventWrapperHandler.onEvent(AsyncLoggerConfigDisruptor.java:111)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor$Log4jEventWrapperHandler.onEvent(AsyncLoggerConfigDisruptor.java:97)
+	at com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:129)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-06-29 10:29:37.179 ERROR DESKTOP-L61QVFV --- [cLoggerConfig-4] c.z.h.p.HikariPool                       : HikariPool-2 - Exception during pool initialization.
+java.sql.SQLException: Access denied for user 'interface_generator'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at eu.arrowhead.common.log4j2.JDBCConnectionFactoryForLog4J2.getConnection(JDBCConnectionFactoryForLog4J2.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource$1.getConnection(FactoryMethodConnectionSource.java:105)
+	at org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource.getConnection(FactoryMethodConnectionSource.java:53)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.connectAndPrepare(JdbcDatabaseManager.java:567)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.access$800(JdbcDatabaseManager.java:62)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager$Reconnector.reconnect(JdbcDatabaseManager.java:174)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.reconnectOn(JdbcDatabaseManager.java:654)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.connectAndStart(JdbcDatabaseManager.java:590)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.writeThrough(JdbcDatabaseManager.java:813)
+	at org.apache.logging.log4j.core.appender.db.AbstractDatabaseManager.write(AbstractDatabaseManager.java:264)
+	at org.apache.logging.log4j.core.appender.db.AbstractDatabaseAppender.append(AbstractDatabaseAppender.java:110)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:464)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.callAppenders(AsyncLoggerConfig.java:127)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:448)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:431)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.log(AsyncLoggerConfig.java:121)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.logToAsyncLoggerConfigsOnCurrentThread(AsyncLoggerConfig.java:169)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor$Log4jEventWrapperHandler.onEvent(AsyncLoggerConfigDisruptor.java:111)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor$Log4jEventWrapperHandler.onEvent(AsyncLoggerConfigDisruptor.java:97)
+	at com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:129)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-06-29 10:29:42.211 ERROR DESKTOP-L61QVFV --- [           main] c.z.h.p.HikariPool                       : HikariPool-3 - Exception during pool initialization.
+java.sql.SQLException: Access denied for user 'interface_generator'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:73)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:142)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:113)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$15454d30.CGLIB$jpaVendorAdapter$7(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$15454d30$$FastClassBySpringCGLIB$$afe2efe1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$15454d30.jpaVendorAdapter(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at eu.arrowhead.core.interfaceGeneration.InterfaceGeneratorMain.main(InterfaceGeneratorMain.java:26)
+2022-06-29 10:29:42.250  WARN DESKTOP-L61QVFV --- [           main] o.s.b.a.o.j.DatabaseLookup               : Unable to determine jdbc url from datasource
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'interface_generator'@'localhost' (using password: YES)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:328)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:73)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:142)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:113)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$15454d30.CGLIB$jpaVendorAdapter$7(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$15454d30$$FastClassBySpringCGLIB$$afe2efe1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$15454d30.jpaVendorAdapter(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at eu.arrowhead.core.interfaceGeneration.InterfaceGeneratorMain.main(InterfaceGeneratorMain.java:26)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'interface_generator'@'localhost' (using password: YES)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	... 62 more
+Caused by: java.sql.SQLException: Access denied for user 'interface_generator'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	... 63 more
+2022-06-29 10:29:43.519 ERROR DESKTOP-L61QVFV --- [ger-Reconnector] c.z.h.p.HikariPool                       : HikariPool-4 - Exception during pool initialization.
+java.sql.SQLException: Access denied for user 'interface_generator'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at eu.arrowhead.common.log4j2.JDBCConnectionFactoryForLog4J2.getConnection(JDBCConnectionFactoryForLog4J2.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource$1.getConnection(FactoryMethodConnectionSource.java:105)
+	at org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource.getConnection(FactoryMethodConnectionSource.java:53)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.connectAndPrepare(JdbcDatabaseManager.java:567)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.access$800(JdbcDatabaseManager.java:62)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager$Reconnector.reconnect(JdbcDatabaseManager.java:174)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager$Reconnector.run(JdbcDatabaseManager.java:185)
+2022-06-29 10:29:44.399 ERROR DESKTOP-L61QVFV --- [           main] c.z.h.p.HikariPool                       : HikariPool-3 - Exception during pool initialization.
+java.sql.SQLException: Access denied for user 'interface_generator'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:179)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:119)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:904)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:935)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at eu.arrowhead.core.interfaceGeneration.InterfaceGeneratorMain.main(InterfaceGeneratorMain.java:26)
+2022-06-29 10:29:44.403  WARN DESKTOP-L61QVFV --- [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata : Access denied for user 'interface_generator'@'localhost' (using password: YES)
+2022-06-29 10:29:47.708  WARN DESKTOP-L61QVFV --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'coreSystemRegistrationProperties': Invocation of init method failed; nested exception is java.util.ServiceConfigurationError: Core system name INTERFACEGENERATOR  is not recognized.
+2022-06-29 10:29:47.743 ERROR DESKTOP-L61QVFV --- [           main] o.s.b.SpringApplication                  : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'coreSystemRegistrationProperties': Invocation of init method failed; nested exception is java.util.ServiceConfigurationError: Core system name INTERFACEGENERATOR  is not recognized.
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:139)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:843)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at eu.arrowhead.core.interfaceGeneration.InterfaceGeneratorMain.main(InterfaceGeneratorMain.java:26)
+Caused by: java.util.ServiceConfigurationError: Core system name INTERFACEGENERATOR  is not recognized.
+	at eu.arrowhead.common.CoreSystemRegistrationProperties.initCoreSystem(CoreSystemRegistrationProperties.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:307)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:136)
+	... 18 more
+Caused by: java.lang.IllegalArgumentException: No enum constant eu.arrowhead.common.core.CoreSystem.INTERFACEGENERATOR
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at eu.arrowhead.common.core.CoreSystem.valueOf(CoreSystem.java:1)
+	at eu.arrowhead.common.CoreSystemRegistrationProperties.initCoreSystem(CoreSystemRegistrationProperties.java:72)
+	... 25 more
+2022-06-29 10:31:20.505  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain on DESKTOP-L61QVFV with PID 15008 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator)
+2022-06-29 10:31:20.525  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-06-29 10:31:23.426 ERROR DESKTOP-L61QVFV --- [cLoggerConfig-4] c.z.h.p.HikariPool                       : HikariPool-1 - Exception during pool initialization.
+java.sql.SQLSyntaxErrorException: Access denied for user 'interface_generator'@'localhost' to database 'arrowhead'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at eu.arrowhead.common.log4j2.JDBCConnectionFactoryForLog4J2.getConnection(JDBCConnectionFactoryForLog4J2.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource$1.getConnection(FactoryMethodConnectionSource.java:105)
+	at org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource.getConnection(FactoryMethodConnectionSource.java:53)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.connectAndPrepare(JdbcDatabaseManager.java:567)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.connectAndStart(JdbcDatabaseManager.java:588)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.writeThrough(JdbcDatabaseManager.java:813)
+	at org.apache.logging.log4j.core.appender.db.AbstractDatabaseManager.write(AbstractDatabaseManager.java:264)
+	at org.apache.logging.log4j.core.appender.db.AbstractDatabaseAppender.append(AbstractDatabaseAppender.java:110)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:464)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.callAppenders(AsyncLoggerConfig.java:127)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:448)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:431)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.log(AsyncLoggerConfig.java:121)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.logToAsyncLoggerConfigsOnCurrentThread(AsyncLoggerConfig.java:169)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor$Log4jEventWrapperHandler.onEvent(AsyncLoggerConfigDisruptor.java:111)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor$Log4jEventWrapperHandler.onEvent(AsyncLoggerConfigDisruptor.java:97)
+	at com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:129)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-06-29 10:31:24.588 ERROR DESKTOP-L61QVFV --- [cLoggerConfig-4] c.z.h.p.HikariPool                       : HikariPool-2 - Exception during pool initialization.
+java.sql.SQLSyntaxErrorException: Access denied for user 'interface_generator'@'localhost' to database 'arrowhead'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at eu.arrowhead.common.log4j2.JDBCConnectionFactoryForLog4J2.getConnection(JDBCConnectionFactoryForLog4J2.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource$1.getConnection(FactoryMethodConnectionSource.java:105)
+	at org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource.getConnection(FactoryMethodConnectionSource.java:53)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.connectAndPrepare(JdbcDatabaseManager.java:567)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.access$800(JdbcDatabaseManager.java:62)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager$Reconnector.reconnect(JdbcDatabaseManager.java:174)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.reconnectOn(JdbcDatabaseManager.java:654)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.connectAndStart(JdbcDatabaseManager.java:590)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.writeThrough(JdbcDatabaseManager.java:813)
+	at org.apache.logging.log4j.core.appender.db.AbstractDatabaseManager.write(AbstractDatabaseManager.java:264)
+	at org.apache.logging.log4j.core.appender.db.AbstractDatabaseAppender.append(AbstractDatabaseAppender.java:110)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:464)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.callAppenders(AsyncLoggerConfig.java:127)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:448)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:431)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.log(AsyncLoggerConfig.java:121)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.logToAsyncLoggerConfigsOnCurrentThread(AsyncLoggerConfig.java:169)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor$Log4jEventWrapperHandler.onEvent(AsyncLoggerConfigDisruptor.java:111)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor$Log4jEventWrapperHandler.onEvent(AsyncLoggerConfigDisruptor.java:97)
+	at com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:129)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-06-29 10:31:28.699 ERROR DESKTOP-L61QVFV --- [           main] c.z.h.p.HikariPool                       : HikariPool-3 - Exception during pool initialization.
+java.sql.SQLSyntaxErrorException: Access denied for user 'interface_generator'@'localhost' to database 'arrowhead'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:73)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:142)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:113)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$d01b1590.CGLIB$jpaVendorAdapter$9(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$d01b1590$$FastClassBySpringCGLIB$$56994307.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$d01b1590.jpaVendorAdapter(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at eu.arrowhead.core.interfaceGeneration.InterfaceGeneratorMain.main(InterfaceGeneratorMain.java:26)
+2022-06-29 10:31:28.712  WARN DESKTOP-L61QVFV --- [           main] o.s.b.a.o.j.DatabaseLookup               : Unable to determine jdbc url from datasource
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Access denied for user 'interface_generator'@'localhost' to database 'arrowhead'
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:328)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:73)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:142)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:113)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$d01b1590.CGLIB$jpaVendorAdapter$9(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$d01b1590$$FastClassBySpringCGLIB$$56994307.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$d01b1590.jpaVendorAdapter(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at eu.arrowhead.core.interfaceGeneration.InterfaceGeneratorMain.main(InterfaceGeneratorMain.java:26)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Access denied for user 'interface_generator'@'localhost' to database 'arrowhead'
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	... 62 more
+Caused by: java.sql.SQLSyntaxErrorException: Access denied for user 'interface_generator'@'localhost' to database 'arrowhead'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	... 63 more
+2022-06-29 10:31:30.741 ERROR DESKTOP-L61QVFV --- [ger-Reconnector] c.z.h.p.HikariPool                       : HikariPool-4 - Exception during pool initialization.
+java.sql.SQLSyntaxErrorException: Access denied for user 'interface_generator'@'localhost' to database 'arrowhead'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at eu.arrowhead.common.log4j2.JDBCConnectionFactoryForLog4J2.getConnection(JDBCConnectionFactoryForLog4J2.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource$1.getConnection(FactoryMethodConnectionSource.java:105)
+	at org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource.getConnection(FactoryMethodConnectionSource.java:53)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.connectAndPrepare(JdbcDatabaseManager.java:567)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.access$800(JdbcDatabaseManager.java:62)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager$Reconnector.reconnect(JdbcDatabaseManager.java:174)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager$Reconnector.run(JdbcDatabaseManager.java:185)
+2022-06-29 10:31:30.741 ERROR DESKTOP-L61QVFV --- [           main] c.z.h.p.HikariPool                       : HikariPool-3 - Exception during pool initialization.
+java.sql.SQLSyntaxErrorException: Access denied for user 'interface_generator'@'localhost' to database 'arrowhead'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:179)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:119)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:904)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:935)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at eu.arrowhead.core.interfaceGeneration.InterfaceGeneratorMain.main(InterfaceGeneratorMain.java:26)
+2022-06-29 10:31:30.757  WARN DESKTOP-L61QVFV --- [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata : Access denied for user 'interface_generator'@'localhost' to database 'arrowhead'
+2022-06-29 10:31:33.924  WARN DESKTOP-L61QVFV --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'coreSystemRegistrationProperties': Invocation of init method failed; nested exception is java.util.ServiceConfigurationError: Core system name INTERFACEGENERATOR  is not recognized.
+2022-06-29 10:31:33.958 ERROR DESKTOP-L61QVFV --- [           main] o.s.b.SpringApplication                  : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'coreSystemRegistrationProperties': Invocation of init method failed; nested exception is java.util.ServiceConfigurationError: Core system name INTERFACEGENERATOR  is not recognized.
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:139)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:843)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at eu.arrowhead.core.interfaceGeneration.InterfaceGeneratorMain.main(InterfaceGeneratorMain.java:26)
+Caused by: java.util.ServiceConfigurationError: Core system name INTERFACEGENERATOR  is not recognized.
+	at eu.arrowhead.common.CoreSystemRegistrationProperties.initCoreSystem(CoreSystemRegistrationProperties.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:307)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:136)
+	... 18 more
+Caused by: java.lang.IllegalArgumentException: No enum constant eu.arrowhead.common.core.CoreSystem.INTERFACEGENERATOR
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at eu.arrowhead.common.core.CoreSystem.valueOf(CoreSystem.java:1)
+	at eu.arrowhead.common.CoreSystemRegistrationProperties.initCoreSystem(CoreSystemRegistrationProperties.java:72)
+	... 25 more
+2022-06-29 10:33:08.981  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain on DESKTOP-L61QVFV with PID 3876 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator)
+2022-06-29 10:33:08.998  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-06-29 10:33:20.024  WARN DESKTOP-L61QVFV --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'coreSystemRegistrationProperties': Invocation of init method failed; nested exception is java.util.ServiceConfigurationError: Core system name INTERFACEGENERATOR  is not recognized.
+2022-06-29 10:33:20.070 ERROR DESKTOP-L61QVFV --- [           main] o.s.b.SpringApplication                  : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'coreSystemRegistrationProperties': Invocation of init method failed; nested exception is java.util.ServiceConfigurationError: Core system name INTERFACEGENERATOR  is not recognized.
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:139)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:843)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at eu.arrowhead.core.interfaceGeneration.InterfaceGeneratorMain.main(InterfaceGeneratorMain.java:26)
+Caused by: java.util.ServiceConfigurationError: Core system name INTERFACEGENERATOR  is not recognized.
+	at eu.arrowhead.common.CoreSystemRegistrationProperties.initCoreSystem(CoreSystemRegistrationProperties.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:307)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:136)
+	... 18 more
+Caused by: java.lang.IllegalArgumentException: No enum constant eu.arrowhead.common.core.CoreSystem.INTERFACEGENERATOR
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at eu.arrowhead.common.core.CoreSystem.valueOf(CoreSystem.java:1)
+	at eu.arrowhead.common.CoreSystemRegistrationProperties.initCoreSystem(CoreSystemRegistrationProperties.java:72)
+	... 25 more
+2022-06-29 10:41:25.738  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain on DESKTOP-L61QVFV with PID 10592 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator)
+2022-06-29 10:41:25.761  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-06-29 10:41:39.420  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-29 10:41:39.942  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 10:41:41.767  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-29 10:41:43.866 ERROR DESKTOP-L61QVFV --- [           main] o.a.c.u.LifecycleBase                    : Failed to start component [Connector[HTTP/1.1-8465]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at eu.arrowhead.core.interfaceGeneration.InterfaceGeneratorMain.main(InterfaceGeneratorMain.java:26)
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:550)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:249)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:239)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1116)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1202)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 more
+2022-06-29 10:41:43.909 ERROR DESKTOP-L61QVFV --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8465 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8465, or configure this application to listen on another port.
+
+2022-06-29 10:43:08.244  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain on DESKTOP-L61QVFV with PID 12016 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator)
+2022-06-29 10:43:08.270  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-06-29 10:43:21.378  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-29 10:43:22.026  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 10:43:24.208  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-29 10:43:26.299  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Started InterfaceGeneratorMain in 18.772 seconds (JVM running for 20.632)
+2022-06-29 10:52:42.267  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain on DESKTOP-L61QVFV with PID 10736 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator)
+2022-06-29 10:52:42.284  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-06-29 10:52:56.073  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-29 10:52:56.606  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 10:52:58.457  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-29 10:53:00.514  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Started InterfaceGeneratorMain in 19.193 seconds (JVM running for 21.026)
+2022-06-29 14:30:07.414  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain on DESKTOP-L61QVFV with PID 7152 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator)
+2022-06-29 14:30:07.443  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-06-29 14:30:20.060  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-29 14:30:20.584  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 14:30:22.418  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-29 14:30:24.446  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: INTERFACEGENERATOR
+2022-06-29 14:30:24.448  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-29 14:30:24.589  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-29 14:30:24.892  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system INTERFACEGENERATOR published 1 service(s).
+2022-06-29 14:30:24.988  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Started InterfaceGeneratorMain in 18.353 seconds (JVM running for 20.238)
+2022-06-29 15:00:29.070  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-29 15:02:12.100  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-29 15:02:42.635  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-29 15:21:05.845  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-29 15:22:33.185  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-29 15:23:53.480  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-29 15:31:21.938  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-29 15:33:02.086  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-29 15:48:37.709  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-29 16:18:52.958  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-29 16:20:15.898  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 09:51:48.762  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 09:52:46.330  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 09:54:01.077  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 09:55:37.725  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 09:56:07.070  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 09:57:14.686  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 09:59:58.736  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 10:00:26.616  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 10:00:51.067  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 10:04:33.293  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 10:05:03.108  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 10:05:44.348  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 10:11:00.420  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 10:13:42.325  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 10:20:18.666  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 10:20:19.762 ERROR DESKTOP-L61QVFV --- [           main] o.a.velocity                             : ResourceManager : unable to find resource 'templates/RESTResourceHttp.vm' in any resource loader.
+2022-06-30 10:23:56.405  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 10:23:57.338 ERROR DESKTOP-L61QVFV --- [           main] o.a.velocity                             : ResourceManager : unable to find resource 'templates/RESTResourceHttp.vm' in any resource loader.
+2022-06-30 10:37:15.925  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 10:37:16.861 ERROR DESKTOP-L61QVFV --- [           main] o.a.velocity                             : ResourceManager : unable to find resource 'templates/RESTResourceHttp.vm' in any resource loader.
+2022-06-30 12:06:01.731  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 12:06:02.697 ERROR DESKTOP-L61QVFV --- [           main] o.a.velocity                             : ResourceManager : unable to find resource 'templates/RESTResourceHttp.vm' in any resource loader.
+2022-06-30 12:11:15.967  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 12:11:16.935 ERROR DESKTOP-L61QVFV --- [           main] o.a.velocity                             : ResourceManager : unable to find resource 'templates/RESTResourceHttp.vm' in any resource loader.
+2022-06-30 12:11:54.650  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 12:12:55.948  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 12:17:46.727  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 12:25:33.623  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain on DESKTOP-L61QVFV with PID 12960 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator)
+2022-06-30 12:25:33.642  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-06-30 12:25:47.377  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-30 12:25:47.904  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 12:25:49.773  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-30 12:25:52.017  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: INTERFACEGENERATOR
+2022-06-30 12:25:52.025  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-30 12:25:52.157  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-30 12:25:52.868  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system INTERFACEGENERATOR published 1 service(s).
+2022-06-30 12:25:52.999  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Started InterfaceGeneratorMain in 20.17 seconds (JVM running for 22.012)
+2022-06-30 13:14:24.384  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=44m12s650ms505µs100ns).
+2022-06-30 13:14:48.576  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m12s614ms197µs100ns).
+2022-06-30 13:49:44.212  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain on DESKTOP-L61QVFV with PID 12908 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator)
+2022-06-30 13:49:44.246  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-06-30 13:49:57.815  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-30 13:49:58.342  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 13:50:00.291  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-30 13:50:02.295  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: INTERFACEGENERATOR
+2022-06-30 13:50:02.303  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-30 13:50:02.423  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-30 13:50:02.705  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system INTERFACEGENERATOR published 1 service(s).
+2022-06-30 13:50:02.799  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Started InterfaceGeneratorMain in 19.354 seconds (JVM running for 21.306)
+2022-06-30 14:28:31.098  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain on DESKTOP-L61QVFV with PID 8860 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator)
+2022-06-30 14:28:31.156  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-06-30 14:28:44.255  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-30 14:28:44.753  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 14:28:46.671  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-30 14:28:48.796  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: INTERFACEGENERATOR
+2022-06-30 14:28:48.805  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-30 14:28:48.945  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-30 14:28:49.237  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system INTERFACEGENERATOR published 1 service(s).
+2022-06-30 14:28:49.306  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Started InterfaceGeneratorMain in 19.036 seconds (JVM running for 20.931)
+2022-06-30 14:35:07.131  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain on DESKTOP-L61QVFV with PID 13876 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator)
+2022-06-30 14:35:07.146  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-06-30 14:35:20.382  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-30 14:35:20.917  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 14:35:22.731  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-30 14:35:24.745  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: INTERFACEGENERATOR
+2022-06-30 14:35:24.746  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-30 14:35:24.867  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-30 14:35:25.173  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system INTERFACEGENERATOR published 1 service(s).
+2022-06-30 14:35:25.253  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Started InterfaceGeneratorMain in 18.85 seconds (JVM running for 20.706)
+2022-06-30 15:14:09.016  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 15:14:09.078  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorControllerTest : Starting InterfaceGeneratorControllerTest on DESKTOP-L61QVFV with PID 6772 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator)
+2022-06-30 15:14:09.087  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorControllerTest : No active profile set, falling back to default profiles: default
+2022-06-30 15:14:24.354  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-30 15:14:25.654  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 15:14:29.033  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-30 15:14:33.865  INFO DESKTOP-L61QVFV --- [           main] e.a.c.t.StandaloneModeInTests            : STANDALONE mode is set...
+2022-06-30 15:14:33.866  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: INTERFACEGENERATOR
+2022-06-30 15:14:33.871  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-30 15:14:33.911  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorControllerTest : Started InterfaceGeneratorControllerTest in 25.533 seconds (JVM running for 28.359)
+2022-06-30 16:53:13.275  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 16:54:04.546  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 16:55:06.568  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 16:55:55.620  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 16:58:25.874  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-06-30 16:59:55.941  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 09:22:08.225  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 09:23:34.911  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 09:24:08.779  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 09:25:28.960  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 09:27:33.861  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 09:31:35.534  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 09:32:36.540  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 09:38:32.988  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 09:42:19.056  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 09:43:16.007  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 09:46:18.669  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 09:47:52.395  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 09:49:24.304  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 09:52:05.376  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 10:00:35.048  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 10:09:17.402  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 10:34:19.493  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 10:42:30.981  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 10:43:41.270  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 10:54:12.531  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 10:55:49.292  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 10:56:37.609  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 10:57:27.909  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 11:03:03.187  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 11:09:21.519  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 11:14:15.076  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 11:17:40.266  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 11:53:47.345  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 11:54:42.869  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 11:55:08.064  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 11:56:26.204  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 11:57:43.866  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 12:01:52.691  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 12:02:41.423  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 12:03:23.090  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 12:04:44.696  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 12:06:08.924  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 12:06:21.562  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 12:09:55.576  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 12:10:40.822  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 12:16:39.133  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 12:18:33.788  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 12:20:40.266  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 12:21:20.691  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 12:29:58.767  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 13:30:38.220  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 13:41:03.496  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-01 15:55:54.203  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain on DESKTOP-L61QVFV with PID 11092 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator)
+2022-07-01 15:55:54.227  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-07-01 15:56:21.456  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-01 15:56:22.001  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-01 15:56:24.137  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-01 15:56:26.516  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: INTERFACEGENERATOR
+2022-07-01 15:56:26.524  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-01 15:56:26.662  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-01 15:56:26.978  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system INTERFACEGENERATOR published 1 service(s).
+2022-07-01 15:56:27.076  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Started InterfaceGeneratorMain in 34.819 seconds (JVM running for 40.192)
+2022-07-07 13:57:26.408  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain on DESKTOP-L61QVFV with PID 10712 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator)
+2022-07-07 13:57:26.437  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-07-07 13:57:41.026  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-07 13:57:41.686  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 13:57:43.878  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-07 13:57:48.028  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: INTERFACEGENERATOR
+2022-07-07 13:57:48.028  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-07 13:57:48.646  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-07 13:57:49.534  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system INTERFACEGENERATOR published 1 service(s).
+2022-07-07 13:57:49.826  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Started InterfaceGeneratorMain in 24.362 seconds (JVM running for 26.485)
+2022-07-07 15:29:38.556  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain on DESKTOP-L61QVFV with PID 1296 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator)
+2022-07-07 15:29:38.577  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-07-07 15:29:52.787  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-07 15:29:53.337  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 15:29:55.762  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-07 15:29:58.131  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: INTERFACEGENERATOR
+2022-07-07 15:29:58.134  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-07 15:29:58.293  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-07 15:29:58.579  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system INTERFACEGENERATOR published 1 service(s).
+2022-07-07 15:29:58.661  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Started InterfaceGeneratorMain in 20.939 seconds (JVM running for 22.892)
+2022-07-07 16:20:22.018  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-07 16:20:22.080  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorControllerTest : Starting InterfaceGeneratorControllerTest on DESKTOP-L61QVFV with PID 12684 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator)
+2022-07-07 16:20:22.090  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorControllerTest : No active profile set, falling back to default profiles: default
+2022-07-07 16:20:36.406  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-07 16:20:37.452  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 16:20:40.913  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-07 16:20:47.354  INFO DESKTOP-L61QVFV --- [           main] e.a.c.t.StandaloneModeInTests            : STANDALONE mode is set...
+2022-07-07 16:20:47.355  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: INTERFACEGENERATOR
+2022-07-07 16:20:47.356  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-07 16:20:47.398  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorControllerTest : Started InterfaceGeneratorControllerTest in 25.912 seconds (JVM running for 28.531)
+2022-07-07 16:21:54.359  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-07 16:23:23.422  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-07 16:24:40.351  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain on DESKTOP-L61QVFV with PID 6100 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator)
+2022-07-07 16:24:40.371  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-07-07 16:24:56.045  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-07 16:24:56.727  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 16:24:59.269  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-07 16:25:01.552  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: INTERFACEGENERATOR
+2022-07-07 16:25:01.553  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-07 16:25:01.705  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-07 16:25:02.006  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system INTERFACEGENERATOR published 1 service(s).
+2022-07-07 16:25:02.089  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Started InterfaceGeneratorMain in 22.704 seconds (JVM running for 24.927)
+2022-07-07 18:09:25.315  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain on DESKTOP-L61QVFV with PID 12576 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\interfacegenerator)
+2022-07-07 18:09:25.330  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-07-07 18:09:39.999  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-07 18:09:40.807  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 18:09:42.868  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-07 18:09:45.238  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: INTERFACEGENERATOR
+2022-07-07 18:09:45.239  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-07 18:09:45.392  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-07 18:09:45.698  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system INTERFACEGENERATOR published 1 service(s).
+2022-07-07 18:09:45.776  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Started InterfaceGeneratorMain in 21.504 seconds (JVM running for 23.542)
+2022-07-08 11:29:04.094  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain on DESKTOP-L61QVFV with PID 15276 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\core-java-spring\interfacegenerator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\core-java-spring\interfacegenerator)
+2022-07-08 11:29:04.110  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-07-08 11:29:19.668  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 11:29:20.253  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 11:29:22.957  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 11:29:25.693  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: INTERFACEGENERATOR
+2022-07-08 11:29:25.703  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 11:29:25.864  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-08 11:29:26.354  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system INTERFACEGENERATOR published 1 service(s).
+2022-07-08 11:29:26.600  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Started InterfaceGeneratorMain in 23.285 seconds (JVM running for 25.171)
+2022-07-08 11:49:29.714  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain on DESKTOP-L61QVFV with PID 9536 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\interfacegenerator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\interfacegenerator)
+2022-07-08 11:49:29.731  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-07-08 11:49:42.447  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 11:49:42.946  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 11:49:44.706  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 11:49:46.792  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: INTERFACEGENERATOR
+2022-07-08 11:49:46.796  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 11:49:46.928  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-08 11:49:47.227  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system INTERFACEGENERATOR published 1 service(s).
+2022-07-08 11:49:47.296  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Started InterfaceGeneratorMain in 18.402 seconds (JVM running for 20.268)
+2022-07-08 13:33:43.984  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain on DESKTOP-L61QVFV with PID 11680 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\interfacegenerator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\interfacegenerator)
+2022-07-08 13:33:44.008  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-07-08 13:34:17.278  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 13:34:18.731  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 13:34:22.360  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 13:34:24.637  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: INTERFACEGENERATOR
+2022-07-08 13:34:24.641  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 13:34:24.759  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-08 13:34:25.195  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system INTERFACEGENERATOR published 1 service(s).
+2022-07-08 13:34:25.275  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Started InterfaceGeneratorMain in 42.424 seconds (JVM running for 44.751)
+2022-07-08 18:04:07.406  WARN DESKTOP-L61QVFV --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/UO269757/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/UO269757/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-07-08 18:20:40.319  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Starting InterfaceGeneratorMain v2.0.0 on DESKTOP-L61QVFV with PID 7884 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\interfacegenerator\target\interface-generator-2.0.0.jar started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\interfacegenerator)
+2022-07-08 18:20:40.359  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : No active profile set, falling back to default profiles: default
+2022-07-08 18:20:54.229  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 18:20:55.926  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 18:20:58.212  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 18:21:00.863  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: INTERFACEGENERATOR
+2022-07-08 18:21:00.864  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 18:21:01.022  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-08 18:21:01.303  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system INTERFACEGENERATOR published 1 service(s).
+2022-07-08 18:21:01.410  INFO DESKTOP-L61QVFV --- [           main] e.a.c.i.InterfaceGeneratorMain           : Started InterfaceGeneratorMain in 22.057 seconds (JVM running for 24.369)
+2022-07-08 18:22:23.583  INFO DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-08 18:22:23.643  INFO DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Core system INTERFACEGENERATOR revoked 1 service(s).

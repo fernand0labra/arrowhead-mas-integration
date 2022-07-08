@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contract xmlns="http://cdl/2018/01" xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+	
+	<context xml:lang="EN">
+		<keywords>contract negotation</keywords>
+	</context>
+
+
+
+	<interface protocol="CoAP" address="http://127.0.0.1/8888" >
+	
+		<method name="GET" id="offer" path="/testTranslation">
+
+	
+			<response status="200">
+                            <format> 
+					<encode name="XML" mediaType= "--" version="0"/>
+					<security name="null" version="0"/>
+					<qos name="null" version="0"/> 
+					<semantic name="null" version="0"/>
+					<notation href="null"/> 
+				</format> 
+                             <payload>	
+					<complextype type="null"/> 					
+					<element name="name" type="String" variation="id"/>
+					<element name="localization" type="String" variation="country"/>
+                                        <complexelement name="value" type="single">
+                                            <element name="temp" type="Float" variation="temperature" unit="Celsius" max="40" />
+                                            <element name="unit" type="String" />
+                                        </complexelement>
+				
+					
+                             </payload>
+                         </response>
+		</method>
+
+	</interface>
+</contract>

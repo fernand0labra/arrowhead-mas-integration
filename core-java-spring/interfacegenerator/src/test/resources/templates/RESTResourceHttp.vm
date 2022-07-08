@@ -1,0 +1,192 @@
+package eu.generator.resources;
+
+import com.fasterxml.jackson.core.JsonFactory;
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import eu.generator.consumer.RequestDTO_C0;
+import eu.generator.consumer.ResponseDTO_C0;
+import eu.generator.provider.RequestDTO_P0;
+import eu.generator.provider.ResponseDTO_P0;
+import java.io.IOException;
+import java.lang.Exception;
+import java.lang.String;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.Consumes;
+import javax.ws.rs.core.MediaType;
+
+@Path("/interface")
+public class RESTResources {
+
+#if($method=="POST"||$method=="PUT")
+    #if($method=="PUT")
+    @PUT
+    #else
+    @POST
+    #end
+  @Path("/indoortemperature")
+  @Produces(MediaType.APPLICATION_${encoding_consumer})
+  @Consumes(MediaType.APPLICATION_${encoding_consumer})
+ 
+  
+  #if($encoding_consumer=="CBOR")
+	public byte[] $id(byte[]  receivedPayload) throws IOException {
+		byte[] response_out=null;
+		RequestDTO_C0 request=new RequestDTO_C0();
+		CBORFactory f = new CBORFactory();
+		ObjectMapper objMapper_consumer = new ObjectMapper(f);
+            		
+  
+  #else
+	public String $id(String receivedPayload) throws IOException {
+		String response_out=" ";
+		RequestDTO_C0 request=new RequestDTO_C0();
+		
+		#if($encoding_consumer=="JSON")
+		
+		JsonFactory jsonFactory_objMapper_consumer = new JsonFactory();
+		ObjectMapper objMapper_consumer=new ObjectMapper(jsonFactory_objMapper_consumer);
+		
+	  #elseif($encoding_consumer=="XML")
+	  
+		ObjectMapper objMapper_consumer=new XmlMapper();
+		
+	  #else
+			//TODO rest of encodings
+	  #end
+  #end  
+	  RequestDTO_C0 requestrequest=objMapper_consumer.readValue(receivedPayload,RequestDTO_C0.class);
+	  
+	
+	  PayloadTranslator pt= new PayloadTranslator();
+	  RequestDTO_P0 request_P= pt.requestAdaptor(request);
+	  
+	  
+	 #if($encoding_provider=="CBOR")
+		CBORFactory fp = new CBORFactory();
+		ObjectMapper objMapper_provider= new ObjectMapper(fp);
+		byte [] payload=objMapper_provider.writeValueAsBytes(request_P);
+		
+	 #elseif($encoding_provider=="JSON")
+		
+		JsonFactory jsonFactory_objMapper_provider = new JsonFactory();
+		ObjectMapper objMapper_provider=new ObjectMapper(jsonFactory_objMapper_provider);
+		String payload=objMapper_provider.writeValueAsString(request_P);
+		
+	  #elseif($encoding_provider=="XML")
+	  
+		ObjectMapper objMapper_provider=new XmlMapper();
+		String payload=objMapper_provider.writeValueAsString(request_P);
+		
+	  #else
+			//TODO rest of encodings
+	 
+	 #end
+	 
+	  ResponseDTO_P0 response=new ResponseDTO_P0();
+	  
+	  try {
+			
+			response=ProviderInterpreter.consumeService("$url",payload);
+			}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	  
+	  
+	  
+	  ResponseDTO_C0 response_C=new ResponseDTO_C0();
+	  response_C= pt.responseAdaptor(response);
+	  
+	  
+	  if(response==null) {
+			return response_out;
+		}
+		else {
+	
+	#if($encoding_consumer=="CBOR")
+		response_out= objMapper_consumer.writeValueAsBytes(response_C);
+	#else
+		response_out= objMapper_consumer.writeValueAsString(response_C);
+	#end	
+		return response_out;
+		}
+	  
+		
+	  
+ }
+	
+
+
+#elseif($method=="GET")
+  @GET
+  @Path("$path")
+  @Produces(MediaType.APPLICATION_${encoding_consumer})
+ 
+  
+  #if($encoding_consumer=="CBOR")
+	public byte[] $id() throws IOException {
+		byte[] response_out=null;
+		
+		CBORFactory f = new CBORFactory();
+		ObjectMapper objMapper_consumer = new ObjectMapper(f);
+		
+            		
+  
+  #else
+	public String $id() throws IOException {
+		String response_out=" ";
+		
+	 #if($encoding_consumer=="JSON")
+		
+		JsonFactory jsonFactory_objMapper_consumer = new JsonFactory();
+		ObjectMapper objMapper_consumer=new ObjectMapper(jsonFactory_objMapper_consumer);
+		
+	  #elseif($encoding_consumer=="XML")
+	  
+		ObjectMapper objMapper_consumer=new XmlMapper();
+		
+	  #else
+			//TODO rest of encodings
+	  #end
+  #end  
+	 
+	
+	 ResponseDTO_P0 response=new ResponseDTO_P0();
+	 
+	  
+	  try {
+			
+			response=ProviderInterpreter.consumeService("$url");
+			}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	  
+	  
+	  
+	  
+	  ResponseDTO_C0 response_C=new ResponseDTO_C0();
+	  PayloadTranslator pt= new PayloadTranslator();
+	  response_C= pt.responseAdaptor(response);
+	  
+	  
+	  if(response==null) {
+			return response_out;
+		}
+		else {
+	
+	#if($encoding_consumer=="CBOR")
+		response_out= objMapper_consumer.writeValueAsBytes(response_C);
+	#else
+		response_out= objMapper_consumer.writeValueAsString(response_C);
+	#end	
+		return response_out;
+		}
+	}
+    #else
+	//TODO put/delete methods
+  #end
+  }

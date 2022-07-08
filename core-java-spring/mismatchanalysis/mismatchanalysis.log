@@ -1,0 +1,538 @@
+2022-06-15 14:22:59.083  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 9660 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-15 14:22:59.109  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-06-15 14:23:14.468  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-15 14:23:15.049  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-15 14:23:17.337  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-15 14:23:19.492  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-15 14:23:19.493  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-15 14:23:19.662  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-15 14:23:20.037  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-06-15 14:23:20.669  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 22.516 seconds (JVM running for 24.127)
+2022-06-15 14:40:13.383  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 11128 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-15 14:40:13.404  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-06-15 14:40:26.494  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-15 14:40:27.015  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-15 14:40:28.875  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-15 14:40:30.832  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-15 14:40:30.833  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-15 14:40:30.972  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-15 14:40:31.235  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-06-15 14:40:31.709  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 19.045 seconds (JVM running for 20.767)
+2022-06-16 10:02:58.505  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 9472 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 10:02:58.542  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 10:03:14.554  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-16 10:03:15.288  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-16 10:03:17.454  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-16 10:03:21.830  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-16 10:03:21.832  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-16 10:03:24.005 ERROR DESKTOP-L61QVFV --- [           main] e.a.c.h.HttpService                      : UnavailableServerException occurred at http://127.0.0.1:8443/serviceregistry/echo
+2022-06-16 10:03:24.010  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is unavailable at the moment, retrying in 15 seconds...
+2022-06-16 10:49:54.958  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 6372 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 10:49:55.011  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 11:00:09.080  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 12724 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 11:00:09.101  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 11:00:23.530  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-16 11:00:24.355  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-16 11:00:26.908  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-16 11:00:31.354  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-16 11:00:31.355  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-16 11:00:33.491 ERROR DESKTOP-L61QVFV --- [           main] e.a.c.h.HttpService                      : UnavailableServerException occurred at http://127.0.0.1:8443/serviceregistry/echo
+2022-06-16 11:00:33.493  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is unavailable at the moment, retrying in 15 seconds...
+2022-06-16 11:03:49.669 ERROR DESKTOP-L61QVFV --- [           main] o.s.t.c.TestContextManager               : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4cfa8227] to prepare test instance [eu.arrowhead.core.mismatchAnalysis.MismatchAnalysisControllerTest@78226c36]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eu.arrowhead.core.mismatchAnalysis.MismatchAnalysisControllerTest': Unsatisfied dependency expressed through field 'wac'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.context.WebApplicationContext' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.context.WebApplicationContext' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1655)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 28 more
+2022-06-16 11:12:40.291  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 10736 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 11:12:40.316  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 11:47:44.166  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 6388 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 11:47:44.188  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 11:48:00.810  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-16 11:48:01.837  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-16 11:48:04.703  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-16 11:48:11.326  INFO DESKTOP-L61QVFV --- [           main] e.a.c.t.StandaloneModeInTests            : STANDALONE mode is set...
+2022-06-16 11:48:11.326  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-16 11:48:11.327  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-16 11:48:11.790  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Started MismatchAnalysisControllerTest in 28.255 seconds (JVM running for 31.319)
+2022-06-16 12:02:20.373  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 11816 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 12:02:20.457  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 12:02:36.902  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-16 12:02:38.001  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-16 12:02:41.063  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-16 12:02:46.343  INFO DESKTOP-L61QVFV --- [           main] e.a.c.t.StandaloneModeInTests            : STANDALONE mode is set...
+2022-06-16 12:02:46.344  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-16 12:02:46.348  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-16 12:02:46.765  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Started MismatchAnalysisControllerTest in 27.092 seconds (JVM running for 30.157)
+2022-06-16 12:07:20.603  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 10824 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 12:07:20.683  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 12:07:37.633  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-16 12:07:38.648  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-16 12:07:41.605  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-16 12:07:47.048  INFO DESKTOP-L61QVFV --- [           main] e.a.c.t.StandaloneModeInTests            : STANDALONE mode is set...
+2022-06-16 12:07:47.050  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-16 12:07:47.051  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-16 12:07:47.434  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Started MismatchAnalysisControllerTest in 27.395 seconds (JVM running for 30.384)
+2022-06-16 12:33:46.814  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 14248 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 12:33:46.836  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 12:34:05.837  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-16 12:34:07.365  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-16 12:34:10.414  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-16 12:34:16.176  INFO DESKTOP-L61QVFV --- [           main] e.a.c.t.StandaloneModeInTests            : STANDALONE mode is set...
+2022-06-16 12:34:16.176  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-16 12:34:16.178  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-16 12:34:16.561  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Started MismatchAnalysisControllerTest in 30.445 seconds (JVM running for 33.704)
+2022-06-16 12:38:49.566  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 6052 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 12:38:49.589  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 12:39:05.512  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 12084 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 12:39:05.558  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 12:39:18.546  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-16 12:39:19.313  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-16 12:39:21.447  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-16 12:39:25.471  INFO DESKTOP-L61QVFV --- [           main] e.a.c.t.StandaloneModeInTests            : STANDALONE mode is set...
+2022-06-16 12:39:25.472  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-16 12:39:25.474  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-16 12:39:26.314  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Started MismatchAnalysisControllerTest in 21.4 seconds (JVM running for 23.883)
+2022-06-16 12:41:45.195  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 11348 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 12:41:45.306  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 12:42:06.937  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 13556 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 12:42:06.979  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 12:42:20.504  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-16 12:42:21.274  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-16 12:42:23.506  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-16 12:42:27.630  INFO DESKTOP-L61QVFV --- [           main] e.a.c.t.StandaloneModeInTests            : STANDALONE mode is set...
+2022-06-16 12:42:27.631  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-16 12:42:27.632  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-16 12:42:28.009  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Started MismatchAnalysisControllerTest in 21.611 seconds (JVM running for 24.08)
+2022-06-16 12:45:27.280  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 11844 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 12:45:27.317  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 12:45:41.599  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-16 12:45:42.368  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-16 12:45:45.501  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-16 12:45:49.790  INFO DESKTOP-L61QVFV --- [           main] e.a.c.t.StandaloneModeInTests            : STANDALONE mode is set...
+2022-06-16 12:45:49.791  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-16 12:45:49.792  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-16 12:45:50.227  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Started MismatchAnalysisControllerTest in 23.547 seconds (JVM running for 26.025)
+2022-06-16 12:46:50.899  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 12260 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 12:46:50.936  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 12:47:05.124  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-16 12:47:06.025  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-16 12:47:09.312  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-16 12:47:14.853  INFO DESKTOP-L61QVFV --- [           main] e.a.c.t.StandaloneModeInTests            : STANDALONE mode is set...
+2022-06-16 12:47:14.854  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-16 12:47:14.855  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-16 12:47:15.569  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Started MismatchAnalysisControllerTest in 25.14 seconds (JVM running for 27.548)
+2022-06-16 12:48:06.394  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 12244 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 12:48:06.468  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 12:49:18.832  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 1492 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 12:49:18.849  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 12:49:32.443  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-16 12:49:33.215  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-16 12:49:35.541  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-16 12:49:39.876  INFO DESKTOP-L61QVFV --- [           main] e.a.c.t.StandaloneModeInTests            : STANDALONE mode is set...
+2022-06-16 12:49:39.878  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-16 12:49:39.880  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-16 12:49:40.253  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Started MismatchAnalysisControllerTest in 21.885 seconds (JVM running for 24.389)
+2022-06-16 12:50:44.092  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 11132 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 12:50:44.147  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 12:50:57.754  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-16 12:50:58.595  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-16 12:51:00.716  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-16 12:51:05.602  INFO DESKTOP-L61QVFV --- [           main] e.a.c.t.StandaloneModeInTests            : STANDALONE mode is set...
+2022-06-16 12:51:05.603  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-16 12:51:05.604  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-16 12:51:06.087  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Started MismatchAnalysisControllerTest in 22.489 seconds (JVM running for 24.986)
+2022-06-16 12:51:55.725  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 10884 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 12:51:55.761  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 12:52:09.082  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-16 12:52:09.880  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-16 12:52:12.177  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-16 12:52:16.199  INFO DESKTOP-L61QVFV --- [           main] e.a.c.t.StandaloneModeInTests            : STANDALONE mode is set...
+2022-06-16 12:52:16.200  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-16 12:52:16.200  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-16 12:52:16.609  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Started MismatchAnalysisControllerTest in 21.344 seconds (JVM running for 23.735)
+2022-06-16 12:53:18.753  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 12428 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 12:53:18.808  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 12:53:33.652  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-16 12:53:34.521  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-16 12:53:36.740  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-16 12:53:40.962  INFO DESKTOP-L61QVFV --- [           main] e.a.c.t.StandaloneModeInTests            : STANDALONE mode is set...
+2022-06-16 12:53:40.963  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-16 12:53:40.964  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-16 12:53:41.307  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Started MismatchAnalysisControllerTest in 23.061 seconds (JVM running for 25.803)
+2022-06-16 12:56:31.490  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 6740 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatch-analysis)
+2022-06-16 12:56:31.512  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-06-16 12:56:45.744  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-16 12:56:46.511  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-16 12:56:48.922  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-16 12:56:52.884  INFO DESKTOP-L61QVFV --- [           main] e.a.c.t.StandaloneModeInTests            : STANDALONE mode is set...
+2022-06-16 12:56:52.890  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-16 12:56:52.891  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-16 12:56:55.356  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Started MismatchAnalysisControllerTest in 24.426 seconds (JVM running for 26.942)
+2022-06-17 11:45:31.571  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 13556 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis)
+2022-06-17 11:45:31.587  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-06-17 11:45:46.874  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-17 11:45:47.440  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-17 11:45:49.502  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-17 11:45:51.545  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-17 11:45:51.546  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-17 11:45:51.689  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-17 11:45:52.002  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-06-17 11:45:52.672  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 21.949 seconds (JVM running for 23.749)
+2022-06-17 18:51:32.955  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h52m58s114ms796µs200ns).
+2022-06-17 18:51:38.926  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=5h52m58s100ms370µs100ns).
+2022-06-20 10:19:25.918  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 13844 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis)
+2022-06-20 10:19:25.938  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-06-20 10:19:39.243  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-20 10:19:39.785  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-20 10:19:41.517  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-20 10:19:43.458  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-20 10:19:43.459  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-20 10:19:43.603  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-20 10:19:43.901  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-06-20 10:19:44.431  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 19.292 seconds (JVM running for 21.0)
+2022-06-20 15:25:29.012  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 9856 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis)
+2022-06-20 15:25:29.031  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-06-20 15:25:42.528  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-20 15:25:43.013  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-20 15:25:44.987  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-20 15:25:46.971  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-20 15:25:46.973  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-20 15:25:47.125  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-20 15:25:47.451  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-06-20 15:25:48.207  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 19.982 seconds (JVM running for 21.695)
+2022-06-20 21:54:36.926  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h18m3s944ms203µs).
+2022-06-20 21:54:44.261  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=4h18m5s309ms504µs).
+2022-06-21 00:02:32.328  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m23s657ms966µs800ns).
+2022-06-21 10:15:22.602  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10h41m6s786ms858µs600ns).
+2022-06-21 10:15:45.506  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h13m13s187ms270µs600ns).
+2022-06-27 14:14:09.615  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 11356 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis)
+2022-06-27 14:14:09.643  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-06-27 14:14:36.120  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-27 14:14:36.832  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-27 14:14:39.546  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-27 14:14:42.151  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-27 14:14:42.152  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-27 14:14:42.308  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-27 14:14:42.709  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-06-27 14:14:43.739  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 35.272 seconds (JVM running for 39.003)
+2022-06-27 20:56:33.279  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h45m17s928ms367µs600ns).
+2022-06-27 20:56:49.390  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=4h45m17s930ms209µs900ns).
+2022-06-28 10:41:09.387  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h39m6s31ms416µs200ns).
+2022-06-28 10:41:25.492  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=13h39m6s20ms936µs600ns).
+2022-06-28 12:01:43.281  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 7340 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis)
+2022-06-28 12:01:43.329  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-06-28 12:01:58.508  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-28 12:01:59.171  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-28 12:02:01.352  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-28 12:02:03.774  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-28 12:02:03.777  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-28 12:02:03.950  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-28 12:02:04.236  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-06-28 12:02:04.794  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 22.377 seconds (JVM running for 24.452)
+2022-06-28 14:18:24.099  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h11m38s420ms105µs200ns).
+2022-06-28 14:18:30.451  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2h11m38s423ms759µs300ns).
+2022-06-28 16:03:49.738  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h39m25s547ms109µs800ns).
+2022-06-28 16:03:56.125  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h39m25s549ms294µs799ns).
+2022-06-28 20:53:45.712  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h57m24s89ms572µs301ns).
+2022-06-28 20:53:52.014  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2h57m24s78ms76µs801ns).
+2022-06-29 09:55:18.184  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h13m31s749ms210µs800ns).
+2022-06-29 09:55:24.504  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=12h13m31s702ms850µs900ns).
+2022-06-29 10:13:14.511  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 8968 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis)
+2022-06-29 10:13:14.527  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-06-29 10:13:30.756  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-29 10:13:31.307  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 10:13:33.292  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-29 10:13:35.602  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-29 10:13:35.604  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-29 10:13:35.754  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-29 10:13:36.101  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-06-29 10:13:36.583  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 22.875 seconds (JVM running for 24.686)
+2022-06-29 10:25:28.795  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 8476 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis)
+2022-06-29 10:25:28.847  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-06-29 10:25:45.277  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-29 10:25:46.396  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 10:25:48.915  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-29 10:25:51.385  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-29 10:25:51.388  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-29 10:25:51.538  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-29 10:25:51.793  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-06-29 10:25:52.277  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 24.377 seconds (JVM running for 26.187)
+2022-06-29 10:42:31.487  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 12104 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis)
+2022-06-29 10:42:31.504  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-06-29 10:42:44.975  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-29 10:42:45.529  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 10:42:47.304  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-29 10:42:49.274  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-29 10:42:49.275  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-29 10:42:49.430  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-29 10:42:49.698  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-06-29 10:42:50.109  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 19.405 seconds (JVM running for 21.315)
+2022-06-29 10:50:53.655  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 2132 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis)
+2022-06-29 10:50:53.682  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-06-29 10:51:06.534  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-29 10:51:07.061  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 10:51:08.943  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-29 10:51:10.945  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-29 10:51:10.948  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-29 10:51:11.080  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-29 10:51:11.315  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-06-29 10:51:11.773  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 18.876 seconds (JVM running for 20.757)
+2022-06-30 12:22:53.102  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 10112 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis)
+2022-06-30 12:22:53.115  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-06-30 12:23:06.612  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-30 12:23:07.116  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 12:23:09.036  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-30 12:23:11.381  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-30 12:23:11.387  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-30 12:23:11.559  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-30 12:23:11.860  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-06-30 12:23:12.435  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 20.105 seconds (JVM running for 21.975)
+2022-06-30 13:14:37.722  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m12s611ms671µs400ns).
+2022-06-30 13:14:43.732  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=44m12s609ms536µs800ns).
+2022-06-30 14:14:23.465  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 9400 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis)
+2022-06-30 14:14:23.482  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-06-30 14:14:38.443  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-30 14:14:38.970  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 14:14:41.055  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-30 14:14:43.181  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-30 14:14:43.182  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-30 14:14:43.334  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-30 14:14:44.607  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-06-30 14:14:45.086  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 22.458 seconds (JVM running for 24.615)
+2022-06-30 14:16:51.013  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 8416 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis)
+2022-06-30 14:16:51.044  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-06-30 14:17:03.968  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-30 14:17:04.504  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 14:17:06.385  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-30 14:17:08.349  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-06-30 14:17:08.352  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-30 14:17:08.504  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-30 14:17:08.758  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-06-30 14:17:09.278  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 19.017 seconds (JVM running for 21.007)
+2022-07-01 15:55:38.864  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 11260 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis)
+2022-07-01 15:55:38.889  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-07-01 15:56:10.133  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-01 15:56:11.469  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-01 15:56:14.853  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-01 15:56:18.547  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-07-01 15:56:18.547  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-01 15:56:18.661  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-01 15:56:19.070  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-07-01 15:56:20.086  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 42.03 seconds (JVM running for 43.769)
+2022-07-07 13:55:20.024  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 9852 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis)
+2022-07-07 13:55:20.043  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-07-07 13:55:36.059  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-07 13:55:36.734  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 13:55:38.991  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-07 13:55:41.417  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-07-07 13:55:41.420  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-07 13:55:41.583  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-07 13:55:41.933  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-07-07 13:55:42.576  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 23.47 seconds (JVM running for 25.527)
+2022-07-07 18:07:57.284  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 5260 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\mismatchanalysis)
+2022-07-07 18:07:57.301  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-07-07 18:08:12.058  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-07 18:08:12.620  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 18:08:14.702  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-07 18:08:16.866  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-07-07 18:08:16.867  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-07 18:08:17.047  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-07 18:08:17.408  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-07-07 18:08:18.209  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 21.805 seconds (JVM running for 23.773)
+2022-07-08 10:39:48.596  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 14452 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\core-java-spring\mismatchanalysis)
+2022-07-08 10:39:48.741  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-07-08 10:40:14.452 ERROR DESKTOP-L61QVFV --- [cLoggerConfig-4] c.z.h.p.HikariPool                       : HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at eu.arrowhead.common.log4j2.JDBCConnectionFactoryForLog4J2.getConnection(JDBCConnectionFactoryForLog4J2.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource$1.getConnection(FactoryMethodConnectionSource.java:105)
+	at org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource.getConnection(FactoryMethodConnectionSource.java:53)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.connectAndPrepare(JdbcDatabaseManager.java:567)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.connectAndStart(JdbcDatabaseManager.java:588)
+	at org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager.writeThrough(JdbcDatabaseManager.java:813)
+	at org.apache.logging.log4j.core.appender.db.AbstractDatabaseManager.write(AbstractDatabaseManager.java:264)
+	at org.apache.logging.log4j.core.appender.db.AbstractDatabaseAppender.append(AbstractDatabaseAppender.java:110)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:464)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.callAppenders(AsyncLoggerConfig.java:127)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:448)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:431)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.log(AsyncLoggerConfig.java:121)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.logToAsyncLoggerConfigsOnCurrentThread(AsyncLoggerConfig.java:169)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor$Log4jEventWrapperHandler.onEvent(AsyncLoggerConfigDisruptor.java:111)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor$Log4jEventWrapperHandler.onEvent(AsyncLoggerConfigDisruptor.java:97)
+	at com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:129)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.negotiateSSLConnection(NativeProtocol.java:340)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1348)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:157)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 36 more
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1377)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1290)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:411)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:383)
+	at com.mysql.cj.protocol.ExportControlled.performTlsHandshake(ExportControlled.java:317)
+	at com.mysql.cj.protocol.StandardSocketFactory.performTlsHandshake(StandardSocketFactory.java:188)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.performTlsHandshake(NativeSocketConnection.java:97)
+	at com.mysql.cj.protocol.a.NativeProtocol.negotiateSSLConnection(NativeProtocol.java:331)
+	... 41 more
+2022-07-08 10:40:45.592  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 10:40:49.878  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 10:41:02.352  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 10:41:22.592  INFO DESKTOP-L61QVFV --- [           main] e.a.c.t.StandaloneModeInTests            : STANDALONE mode is set...
+2022-07-08 10:41:22.593  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-07-08 10:41:22.594  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 10:41:23.328  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Started MismatchAnalysisControllerTest in 97.099 seconds (JVM running for 106.695)
+2022-07-08 10:52:38.654  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 11840 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\core-java-spring\mismatchanalysis)
+2022-07-08 10:52:38.672  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-07-08 10:52:53.218  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 10:52:54.194  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 10:52:56.662  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 10:53:00.841  INFO DESKTOP-L61QVFV --- [           main] e.a.c.t.StandaloneModeInTests            : STANDALONE mode is set...
+2022-07-08 10:53:00.841  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-07-08 10:53:00.844  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 10:53:01.283  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Started MismatchAnalysisControllerTest in 23.263 seconds (JVM running for 26.201)
+2022-07-08 11:27:58.694  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 3180 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\core-java-spring\mismatchanalysis)
+2022-07-08 11:27:58.741  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-07-08 11:28:11.489  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 11:28:12.000  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 11:28:13.813  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 11:28:15.814  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-07-08 11:28:15.815  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 11:28:15.941  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-08 11:28:16.392  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-07-08 11:28:16.983  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 19.033 seconds (JVM running for 20.714)
+2022-07-08 11:48:52.809  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 10740 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\mismatchanalysis)
+2022-07-08 11:48:52.829  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-07-08 11:49:05.515  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 11:49:06.062  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 11:49:07.896  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 11:49:09.883  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-07-08 11:49:09.884  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 11:49:10.019  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-08 11:49:10.242  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-07-08 11:49:10.692  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 18.528 seconds (JVM running for 20.163)
+2022-07-08 12:37:59.467  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 12608 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\mismatchanalysis)
+2022-07-08 12:37:59.482  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-07-08 12:38:13.443  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 12:38:14.002  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 12:38:15.846  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 12:38:17.864  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-07-08 12:38:17.866  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 12:38:18.001  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-08 12:38:18.262  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-07-08 12:38:18.820  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 20.085 seconds (JVM running for 21.748)
+2022-07-08 13:30:58.300  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 14232 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\mismatchanalysis)
+2022-07-08 13:30:58.322  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-07-08 13:31:11.663  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 13:31:12.190  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 13:31:14.107  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 13:31:16.122  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-07-08 13:31:16.123  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 13:31:16.267  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-08 13:31:16.534  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-07-08 13:31:16.997  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 19.434 seconds (JVM running for 21.215)
+2022-07-08 17:50:59.244  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 12280 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\mismatchanalysis)
+2022-07-08 17:50:59.302  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-07-08 17:51:12.606  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 17:51:14.483  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 17:51:16.856  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 17:51:20.990  INFO DESKTOP-L61QVFV --- [           main] e.a.c.t.StandaloneModeInTests            : STANDALONE mode is set...
+2022-07-08 17:51:20.991  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-07-08 17:51:20.992  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 17:51:21.465  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Started MismatchAnalysisControllerTest in 22.791 seconds (JVM running for 25.49)
+2022-07-08 18:10:49.182  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 10640 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\mismatchanalysis)
+2022-07-08 18:10:49.209  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-07-08 18:11:17.009  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 18:11:20.015  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 18:11:23.922  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 18:11:27.987  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-07-08 18:11:27.990  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 18:11:28.236  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-08 18:11:28.685  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-07-08 18:11:29.296  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 40.917 seconds (JVM running for 42.862)
+2022-07-08 18:39:03.928  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Starting MismatchAnalysisControllerTest on DESKTOP-L61QVFV with PID 10492 (started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\auxiliar\core-java-spring\core-java-spring\mismatchanalysis)
+2022-07-08 18:39:03.952  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : No active profile set, falling back to default profiles: default
+2022-07-08 18:39:18.157  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 18:39:19.984  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 18:39:22.322  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 18:39:26.294  INFO DESKTOP-L61QVFV --- [           main] e.a.c.t.StandaloneModeInTests            : STANDALONE mode is set...
+2022-07-08 18:39:26.295  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-07-08 18:39:26.296  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 18:39:26.805  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisControllerTest   : Started MismatchAnalysisControllerTest in 23.404 seconds (JVM running for 26.196)

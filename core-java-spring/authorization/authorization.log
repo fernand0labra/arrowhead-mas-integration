@@ -1,0 +1,260 @@
+2022-03-11 16:17:17.842  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain v4.4.0 on DESKTOP-L61QVFV with PID 8288 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization\target\arrowhead-authorization-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization)
+2022-03-11 16:17:17.868  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-03-11 16:17:27.100  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : AuthAccessControlFilter is active
+2022-03-11 16:17:36.124  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-11 16:17:36.915  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-11 16:17:38.898  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-11 16:17:42.043  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-03-11 16:17:42.046  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: SECURED
+2022-03-11 16:17:42.215  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server CN: authorization.testcloud2.aitia.arrowhead.eu
+2022-03-11 16:17:44.541  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-03-11 16:17:46.049  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-03-11 16:17:46.854  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 30.004 seconds (JVM running for 32.451)
+2022-03-11 16:24:36.974 ERROR DESKTOP-L61QVFV --- [       Thread-3] e.a.c.h.HttpService                      : UnavailableServerException occurred at https://127.0.0.1:8443/serviceregistry/echo
+2022-03-11 16:24:36.999 ERROR DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Could not get any response from: https://127.0.0.1:8443/serviceregistry/echo
+2022-03-11 16:35:42.817  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain v4.4.0 on DESKTOP-L61QVFV with PID 5512 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization\target\arrowhead-authorization-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization)
+2022-03-11 16:35:42.841  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-03-11 16:36:01.254  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-11 16:36:02.029  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-11 16:36:04.057  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-11 16:36:07.509  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-03-11 16:36:07.510  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-11 16:36:08.691  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-03-11 16:36:12.275  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-03-11 16:36:12.432  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 30.51 seconds (JVM running for 32.945)
+2022-03-11 16:42:18.832  INFO DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-03-11 16:42:19.018  INFO DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION revoked 5 service(s).
+2022-03-11 18:22:12.158  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain v4.4.0 on DESKTOP-L61QVFV with PID 4648 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization\target\arrowhead-authorization-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization)
+2022-03-11 18:22:12.188  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-03-11 18:22:29.093  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-11 18:22:29.814  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-11 18:22:32.576  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-11 18:22:35.940  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-03-11 18:22:35.942  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-11 18:22:36.895  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-03-11 18:22:38.564  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-03-11 18:22:38.703  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 27.633 seconds (JVM running for 30.393)
+2022-03-11 18:24:43.604  INFO DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-03-11 18:24:43.876  INFO DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION revoked 5 service(s).
+2022-03-14 11:02:35.059  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain v4.4.0 on DESKTOP-L61QVFV with PID 4772 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization\target\arrowhead-authorization-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization)
+2022-03-14 11:02:35.084  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-03-14 11:02:55.140  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-14 11:02:56.300  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-14 11:02:58.793  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-14 11:03:02.911  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-03-14 11:03:02.914  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-14 11:03:03.696  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-03-14 11:03:05.423  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-03-14 11:03:05.602  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 31.632 seconds (JVM running for 34.196)
+2022-03-14 12:52:50.632  INFO DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-03-14 12:52:50.917  INFO DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION revoked 5 service(s).
+2022-03-14 17:01:04.662  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain v4.4.0 on DESKTOP-L61QVFV with PID 12736 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization\target\arrowhead-authorization-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization)
+2022-03-14 17:01:04.695  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-03-14 17:01:22.846  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-14 17:01:23.582  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-14 17:01:25.554  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-14 17:01:28.505  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-03-14 17:01:28.506  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-14 17:01:29.070  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-03-14 17:01:29.870  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-03-14 17:01:29.994  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 26.596 seconds (JVM running for 31.563)
+2022-03-14 20:48:37.764  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m56s495ms761탎700ns).
+2022-03-14 20:48:43.066  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=59m56s500ms662탎400ns).
+2022-03-15 09:41:43.785  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10h54m58s836ms620탎400ns).
+2022-03-15 09:41:49.069  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h55m9s386ms280탎200ns).
+2022-03-15 09:47:15.598  INFO DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-03-15 09:47:15.812  INFO DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION revoked 5 service(s).
+2022-03-15 10:17:20.155  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain v4.4.0 on DESKTOP-L61QVFV with PID 14240 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization\target\arrowhead-authorization-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization)
+2022-03-15 10:17:20.191  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-03-15 10:17:39.504  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-15 10:17:40.625  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-15 10:17:42.656  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-15 10:17:46.210  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-03-15 10:17:46.214  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-15 10:17:46.965  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-03-15 10:17:48.596  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-03-15 10:17:48.740  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 29.938 seconds (JVM running for 32.716)
+2022-03-15 11:53:36.206  INFO DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-03-15 11:53:36.527  INFO DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION revoked 5 service(s).
+2022-03-15 13:46:05.222  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain v4.4.0 on DESKTOP-L61QVFV with PID 13392 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization\target\arrowhead-authorization-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization)
+2022-03-15 13:46:05.260  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-03-15 13:46:23.827  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-15 13:46:24.675  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-15 13:46:26.935  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-15 13:46:35.179  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-03-15 13:46:35.187  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-15 13:46:36.268  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-03-15 13:46:38.607  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-03-15 13:46:39.251  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 35.225 seconds (JVM running for 38.056)
+2022-03-15 13:56:05.850  INFO DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-03-15 13:56:06.059  INFO DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION revoked 5 service(s).
+2022-03-15 13:56:52.196  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain v4.4.0 on DESKTOP-L61QVFV with PID 12036 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization\target\arrowhead-authorization-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization)
+2022-03-15 13:56:52.278  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-03-15 13:57:10.458  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-15 13:57:11.352  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-15 13:57:13.509  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-15 13:57:17.023  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-03-15 13:57:17.027  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-15 13:57:17.642  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-03-15 13:57:19.008  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-03-15 13:57:19.170  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 28.042 seconds (JVM running for 30.79)
+2022-03-15 21:28:10.755  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h12m39s729ms753탎900ns).
+2022-03-15 21:28:16.298  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3h12m39s717ms370탎800ns).
+2022-03-15 22:18:49.841  INFO DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-03-15 22:18:50.214  INFO DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION revoked 5 service(s).
+2022-03-16 07:52:31.482  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain v4.4.0 on DESKTOP-L61QVFV with PID 6068 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization\target\arrowhead-authorization-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization)
+2022-03-16 07:52:31.525  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-03-16 07:52:51.587  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-16 07:52:52.596  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-16 07:52:54.929  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-16 07:52:58.822  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-03-16 07:52:58.826  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-16 07:52:59.791  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-03-16 07:53:01.436  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-03-16 07:53:01.602  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 31.187 seconds (JVM running for 34.179)
+2022-03-16 09:37:39.769  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m33s366ms862탎500ns).
+2022-03-16 09:37:46.514  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=50m33s381ms729탎100ns).
+2022-03-16 10:57:58.015  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m16s762ms885탎400ns).
+2022-03-16 10:58:04.867  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=6m16s751ms224탎100ns).
+2022-03-16 12:46:33.215  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m34s211ms111탎700ns).
+2022-03-16 12:46:39.932  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=54m34s202ms338탎200ns).
+2022-03-16 15:04:43.860  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=35m32s225ms408탎700ns).
+2022-03-16 15:05:07.482  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m32s233ms910탎600ns).
+2022-03-17 10:07:16.471  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16h23m36s140ms81탎).
+2022-03-17 10:07:22.680  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=16h23m36s143ms34탎).
+2022-03-17 10:43:51.922  INFO DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-03-17 10:43:52.180  INFO DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION revoked 5 service(s).
+2022-03-17 22:29:30.764  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain v4.4.0 on DESKTOP-L61QVFV with PID 1752 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization\target\arrowhead-authorization-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization)
+2022-03-17 22:29:30.804  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-03-17 22:29:48.278  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-17 22:29:49.113  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-17 22:29:51.088  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-17 22:29:54.470  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-03-17 22:29:54.474  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-17 22:29:55.110  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-03-17 22:29:56.409  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-03-17 22:29:56.572  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 26.804 seconds (JVM running for 29.626)
+2022-03-18 09:29:13.907  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h41m7s123ms293탎100ns).
+2022-03-18 09:29:19.939  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=8h41m7s116ms940탎300ns).
+2022-03-18 11:46:13.325  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m56s902ms208탎900ns).
+2022-03-18 11:46:19.001  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=20m56s883ms301탎500ns).
+2022-03-18 13:59:34.335  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m48s594ms380탎500ns).
+2022-03-18 13:59:39.557  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=18m48s585ms605탎).
+2022-03-18 15:14:28.917  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m53s791ms60탎500ns).
+2022-03-18 15:14:33.797  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=50m53s784ms781탎).
+2022-03-18 15:14:36.805 ERROR DESKTOP-L61QVFV --- [       Thread-3] e.a.c.h.HttpService                      : UnavailableServerException occurred at http://127.0.0.1:8443/serviceregistry/echo
+2022-03-18 15:14:37.551 ERROR DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Could not get any response from: http://127.0.0.1:8443/serviceregistry/echo
+2022-03-18 17:51:27.324  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain v4.4.0 on DESKTOP-L61QVFV with PID 6520 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization\target\arrowhead-authorization-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\authorization)
+2022-03-18 17:51:27.352  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-03-18 17:51:43.648  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-18 17:51:44.425  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-18 17:51:46.115  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-18 17:51:49.083  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-03-18 17:51:49.086  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-18 17:51:49.627  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-03-18 17:51:50.865  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-03-18 17:51:51.001  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 25.183 seconds (JVM running for 28.075)
+2022-03-18 20:43:00.643  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=52m52s592ms860탎).
+2022-03-18 20:43:10.754  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m8s305ms828탎200ns).
+2022-03-19 12:14:30.810  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h56m48s495ms645탎600ns).
+2022-03-19 12:14:50.754  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=13h56m48s481ms12탎500ns).
+2022-03-19 15:57:39.748  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h4m15s999ms710탎).
+2022-03-19 15:57:56.147  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m15s988ms226탎100ns).
+2022-03-19 16:30:09.040 ERROR DESKTOP-L61QVFV --- [       Thread-3] e.a.c.h.HttpService                      : UnavailableServerException occurred at http://127.0.0.1:8443/serviceregistry/echo
+2022-03-19 16:30:09.132 ERROR DESKTOP-L61QVFV --- [       Thread-3] e.a.c.ApplicationInitListener            : Could not get any response from: http://127.0.0.1:8443/serviceregistry/echo
+2022-06-15 14:37:22.014  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain on DESKTOP-L61QVFV with PID 6228 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\authorization\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\authorization)
+2022-06-15 14:37:22.039  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-06-15 14:37:35.553  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-15 14:37:36.054  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-15 14:37:37.575  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-15 14:37:39.904  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-06-15 14:37:39.905  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-15 14:37:40.389  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-15 14:37:41.523  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-06-15 14:37:41.588  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 20.293 seconds (JVM running for 22.041)
+2022-06-16 15:41:10.436  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain on DESKTOP-L61QVFV with PID 10412 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\authorization\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\authorization)
+2022-06-16 15:41:10.455  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-06-16 15:41:23.885  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-16 15:41:24.389  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-16 15:41:25.865  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-16 15:41:28.154  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-06-16 15:41:28.155  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-16 15:41:28.826  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-16 15:41:29.863  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-06-16 15:41:29.947  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 20.272 seconds (JVM running for 21.95)
+2022-06-17 10:48:30.976  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain on DESKTOP-L61QVFV with PID 15096 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\authorization\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\authorization)
+2022-06-17 10:48:31.001  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-06-17 10:48:44.985  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-17 10:48:45.533  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-17 10:48:47.568  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-17 10:48:50.019  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-06-17 10:48:50.019  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-17 10:48:50.850  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-17 10:48:52.030  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-06-17 10:48:52.152  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 22.123 seconds (JVM running for 23.885)
+2022-06-17 18:51:37.967  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=5h52m58s89ms412쨉s900ns).
+2022-06-17 18:52:02.194  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h52m58s88ms268쨉s600ns).
+2022-06-20 10:17:55.561  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain on DESKTOP-L61QVFV with PID 7864 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\authorization\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\authorization)
+2022-06-20 10:17:55.588  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-06-20 10:18:12.278  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-20 10:18:13.662  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-20 10:18:19.512  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-20 10:18:26.654  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-06-20 10:18:26.655  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-20 10:18:27.656  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-20 10:18:29.531  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-06-20 10:18:29.634  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 34.841 seconds (JVM running for 36.496)
+2022-06-20 15:19:47.174  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain on DESKTOP-L61QVFV with PID 2716 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\authorization\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\authorization)
+2022-06-20 15:19:47.196  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-06-20 15:20:01.008  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-20 15:20:01.546  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-20 15:20:03.019  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-20 15:20:05.322  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-06-20 15:20:05.323  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-20 15:20:05.716  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-06-20 15:20:06.761  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-06-20 15:20:06.863  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 20.432 seconds (JVM running for 22.152)
+2022-06-20 21:54:54.086  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h18m3s915ms249쨉s900ns).
+2022-06-20 21:54:59.625  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=4h18m3s926ms275쨉s900ns).
+2022-06-21 10:15:31.318  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h41m6s773ms293쨉s400ns).
+2022-06-21 10:15:36.885  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10h41m6s773ms63쨉s900ns).
+2022-07-08 11:26:28.306  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain on DESKTOP-L61QVFV with PID 10596 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\core-java-spring\authorization\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\core-java-spring\authorization)
+2022-07-08 11:26:28.419  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-07-08 11:26:42.744  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 11:26:43.239  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 11:26:44.662  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 11:26:46.905  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-07-08 11:26:46.907  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 11:26:47.598  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-08 11:26:49.293  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-07-08 11:26:49.379  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 22.229 seconds (JVM running for 24.485)
+2022-07-08 11:47:29.429  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain on DESKTOP-L61QVFV with PID 15104 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\authorization\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\authorization)
+2022-07-08 11:47:29.445  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-07-08 11:47:59.070  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 11:47:59.569  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 11:48:01.078  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 11:48:03.406  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-07-08 11:48:03.414  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 11:48:03.540  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-08 11:48:04.343  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-07-08 11:48:04.421  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 36.721 seconds (JVM running for 41.01)
+2022-07-08 13:29:53.923  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain on DESKTOP-L61QVFV with PID 5076 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\authorization\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\authorization)
+2022-07-08 13:29:53.951  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-07-08 13:30:24.766  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 13:30:25.823  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 13:30:29.466  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 13:30:36.166  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-07-08 13:30:36.168  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 13:30:36.777  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-08 13:30:38.437  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-07-08 13:30:38.612  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 45.722 seconds (JVM running for 48.309)
+2022-07-08 18:09:45.564  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain on DESKTOP-L61QVFV with PID 11924 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\authorization\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\authorization)
+2022-07-08 18:09:45.584  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-07-08 18:10:12.340  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 18:10:13.648  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 18:10:18.907  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 18:10:28.183  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-07-08 18:10:28.185  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 18:10:28.682  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-08 18:10:29.777  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-07-08 18:10:30.386  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 45.62 seconds (JVM running for 47.431)

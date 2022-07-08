@@ -1,0 +1,250 @@
+2022-03-11 16:16:02.047  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain v4.4.0 on DESKTOP-L61QVFV with PID 9540 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry\target\arrowhead-serviceregistry-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry)
+2022-03-11 16:16:02.075  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-03-11 16:16:10.904  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : SRAccessControlFilter is active
+2022-03-11 16:16:19.331  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-11 16:16:20.072  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-11 16:16:22.142  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-03-11 16:16:22.169  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-03-11 16:16:22.623  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-11 16:16:26.258  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-03-11 16:16:26.260  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: SECURED
+2022-03-11 16:16:26.434  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server CN: serviceregistry.testcloud2.aitia.arrowhead.eu
+2022-03-11 16:16:28.297  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 27.21 seconds (JVM running for 29.657)
+2022-03-11 16:28:03.943  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain v4.4.0 on DESKTOP-L61QVFV with PID 8424 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry\target\arrowhead-serviceregistry-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry)
+2022-03-11 16:28:03.962  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-03-11 16:28:13.295  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : SRAccessControlFilter is active
+2022-03-11 16:28:22.075  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-11 16:28:22.876  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-11 16:28:24.914  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-03-11 16:28:24.940  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-03-11 16:28:25.366  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-11 16:28:29.056  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-03-11 16:28:29.058  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: SECURED
+2022-03-11 16:28:29.234  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server CN: serviceregistry.testcloud2.aitia.arrowhead.eu
+2022-03-11 16:28:31.309  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 28.394 seconds (JVM running for 31.072)
+2022-03-11 16:34:39.292  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain v4.4.0 on DESKTOP-L61QVFV with PID 9076 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry\target\arrowhead-serviceregistry-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry)
+2022-03-11 16:34:39.313  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-03-11 16:34:59.354  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-11 16:35:00.089  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-11 16:35:02.308  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-03-11 16:35:02.331  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-03-11 16:35:02.748  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-11 16:35:06.310  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-03-11 16:35:06.312  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-11 16:35:07.396  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 29.291 seconds (JVM running for 32.568)
+2022-03-11 18:21:01.751  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain v4.4.0 on DESKTOP-L61QVFV with PID 1752 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry\target\arrowhead-serviceregistry-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry)
+2022-03-11 18:21:01.783  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-03-11 18:21:20.750  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-11 18:21:21.437  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-11 18:21:23.709  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-03-11 18:21:23.746  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-03-11 18:21:24.111  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-11 18:21:28.404  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-03-11 18:21:28.407  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-11 18:21:29.839  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 29.151 seconds (JVM running for 31.848)
+2022-03-14 11:01:14.576  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain v4.4.0 on DESKTOP-L61QVFV with PID 11508 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry\target\arrowhead-serviceregistry-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry)
+2022-03-14 11:01:14.609  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-03-14 11:01:32.578  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-14 11:01:33.390  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-14 11:01:35.412  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-03-14 11:01:35.438  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-03-14 11:01:35.864  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-14 11:01:39.491  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-03-14 11:01:39.507  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-14 11:01:40.742  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 27.238 seconds (JVM running for 30.002)
+2022-03-14 17:00:34.382  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain v4.4.0 on DESKTOP-L61QVFV with PID 12244 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry\target\arrowhead-serviceregistry-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry)
+2022-03-14 17:00:34.409  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-03-14 17:00:53.357  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-14 17:00:54.111  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-14 17:00:55.890  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-03-14 17:00:55.908  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-03-14 17:00:56.282  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-14 17:01:00.517  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-03-14 17:01:00.529  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-14 17:01:02.342  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 28.999 seconds (JVM running for 32.044)
+2022-03-14 20:48:37.991  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m56s509ms369탎600ns).
+2022-03-14 20:48:45.165  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=59m56s508ms787탎700ns).
+2022-03-15 09:41:34.713  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10h54m47s731ms825탎700ns).
+2022-03-15 09:41:49.388  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h55m9s389ms858탎700ns).
+2022-03-15 10:16:48.208  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain v4.4.0 on DESKTOP-L61QVFV with PID 10640 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry\target\arrowhead-serviceregistry-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry)
+2022-03-15 10:16:48.253  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-03-15 10:17:05.936  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-15 10:17:06.732  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-15 10:17:08.905  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-03-15 10:17:08.935  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-03-15 10:17:09.357  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-15 10:17:12.806  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-03-15 10:17:12.810  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-15 10:17:13.853  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 26.753 seconds (JVM running for 30.58)
+2022-03-15 13:45:28.269  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain v4.4.0 on DESKTOP-L61QVFV with PID 9100 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry\target\arrowhead-serviceregistry-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry)
+2022-03-15 13:45:28.319  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-03-15 13:45:48.321  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-15 13:45:49.291  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-15 13:45:51.642  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-03-15 13:45:51.674  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-03-15 13:45:52.146  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-15 13:45:56.206  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-03-15 13:45:56.210  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-15 13:45:57.412  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 30.344 seconds (JVM running for 33.445)
+2022-03-15 13:56:18.702  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain v4.4.0 on DESKTOP-L61QVFV with PID 1916 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry\target\arrowhead-serviceregistry-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry)
+2022-03-15 13:56:18.738  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-03-15 13:56:37.257  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-15 13:56:38.118  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-15 13:56:40.296  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-03-15 13:56:40.322  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-03-15 13:56:40.756  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-15 13:56:44.663  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-03-15 13:56:44.669  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-15 13:56:45.743  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 28.148 seconds (JVM running for 31.115)
+2022-03-15 21:28:07.286  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h12m39s730ms665탎600ns).
+2022-03-15 21:28:13.225  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3h12m39s731ms75탎100ns).
+2022-03-16 07:51:47.955  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain v4.4.0 on DESKTOP-L61QVFV with PID 10116 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry\target\arrowhead-serviceregistry-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry)
+2022-03-16 07:51:47.991  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-03-16 07:52:07.750  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-16 07:52:08.747  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-16 07:52:11.123  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-03-16 07:52:11.151  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-03-16 07:52:11.654  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-16 07:52:15.893  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-03-16 07:52:15.897  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-16 07:52:17.056  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 30.254 seconds (JVM running for 33.698)
+2022-03-16 09:37:28.061  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m33s372ms898탎100ns).
+2022-03-16 09:37:33.231  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=50m33s370ms331탎300ns).
+2022-03-16 10:57:47.650  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m16s749ms179탎100ns).
+2022-03-16 10:57:51.476  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=6m16s752ms137탎800ns).
+2022-03-16 12:46:22.879  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m34s200ms305탎700ns).
+2022-03-16 12:46:26.602  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=54m34s200ms941탎300ns).
+2022-03-16 15:04:56.853  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m32s227ms928탎500ns).
+2022-03-16 15:05:00.536  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=35m32s234ms538탎400ns).
+2022-03-17 10:07:36.648  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16h23m36s147ms215탎900ns).
+2022-03-17 10:07:39.238  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=16h23m36s149ms437탎700ns).
+2022-03-17 22:23:42.472  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain v4.4.0 on DESKTOP-L61QVFV with PID 10932 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry\target\arrowhead-serviceregistry-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry)
+2022-03-17 22:23:42.532  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-03-17 22:24:00.472  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-17 22:24:01.503  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-17 22:24:03.401  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-03-17 22:24:03.418  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-03-17 22:24:03.837  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-17 22:24:06.840  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-03-17 22:24:06.844  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-17 22:24:07.945  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 26.765 seconds (JVM running for 29.845)
+2022-03-18 09:29:03.163  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=8h41m7s125ms782탎200ns).
+2022-03-18 09:29:26.468  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h41m7s112ms120탎).
+2022-03-18 11:45:56.224  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m56s886ms812탎100ns).
+2022-03-18 11:46:02.414  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=20m56s931ms207탎700ns).
+2022-03-18 13:59:24.446  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=18m48s588ms491탎200ns).
+2022-03-18 13:59:48.978  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m48s584ms486탎100ns).
+2022-03-18 15:14:13.158  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m53s792ms780탎800ns).
+2022-03-18 15:14:19.817  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=50m53s780ms726탎700ns).
+2022-03-18 17:50:36.640  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain v4.4.0 on DESKTOP-L61QVFV with PID 6752 (C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry\target\arrowhead-serviceregistry-4.4.0.jar started by UO269757 in C:\Users\UO269757\Desktop\Courses\Third_Period\Project_in_Computer_Science\Workspace\core-java-spring\serviceregistry)
+2022-03-18 17:50:36.670  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-03-18 17:51:10.614  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-03-18 17:51:11.728  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-18 17:51:14.095  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-03-18 17:51:14.121  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-03-18 17:51:14.616  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-03-18 17:51:19.206  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-03-18 17:51:19.226  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-03-18 17:51:20.827  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 45.183 seconds (JVM running for 47.996)
+2022-03-18 20:42:56.549  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=53m3s541ms422탎400ns).
+2022-03-18 20:43:04.307  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m17s263ms257탎).
+2022-03-19 12:14:48.051  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=13h56m48s492ms21탎600ns).
+2022-03-19 12:14:54.317  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h56m48s484ms316탎100ns).
+2022-03-19 15:57:43.371  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m16s10ms406탎800ns).
+2022-03-19 15:58:06.761  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h4m15s988ms959탎200ns).
+2022-06-15 14:36:43.751  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain on DESKTOP-L61QVFV with PID 10940 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\serviceregistry\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\serviceregistry)
+2022-06-15 14:36:43.773  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-06-15 14:36:57.770  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-15 14:36:58.400  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-15 14:36:59.914  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-06-15 14:36:59.929  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-06-15 14:37:00.216  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-15 14:37:03.014  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-06-15 14:37:03.016  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-15 14:37:03.993  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 21.059 seconds (JVM running for 22.965)
+2022-06-16 15:40:30.387  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain on DESKTOP-L61QVFV with PID 2080 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\serviceregistry\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\serviceregistry)
+2022-06-16 15:40:30.478  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-06-16 15:40:45.711  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-16 15:40:46.218  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-16 15:40:47.700  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-06-16 15:40:47.717  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-06-16 15:40:48.008  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-16 15:40:50.740  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-06-16 15:40:50.741  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-16 15:40:51.530  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 21.993 seconds (JVM running for 23.773)
+2022-06-17 10:46:52.292  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain on DESKTOP-L61QVFV with PID 14912 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\serviceregistry\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\serviceregistry)
+2022-06-17 10:46:52.314  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-06-17 10:47:08.683  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-17 10:47:09.214  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-17 10:47:10.665  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-06-17 10:47:10.679  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-06-17 10:47:11.011  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-17 10:47:13.745  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-06-17 10:47:13.746  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-17 10:47:14.575  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 23.247 seconds (JVM running for 25.205)
+2022-06-17 18:51:53.021  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h52m58s88ms376쨉s100ns).
+2022-06-17 18:52:01.550  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=5h52m58s90ms68쨉s700ns).
+2022-06-20 10:16:41.367  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain on DESKTOP-L61QVFV with PID 13080 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\serviceregistry\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\serviceregistry)
+2022-06-20 10:16:41.389  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-06-20 10:16:58.590  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-20 10:16:59.746  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-20 10:17:01.395  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-06-20 10:17:01.410  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-06-20 10:17:01.787  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-20 10:17:04.672  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-06-20 10:17:04.674  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-20 10:17:05.639  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 25.052 seconds (JVM running for 26.898)
+2022-06-20 15:17:50.538  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain on DESKTOP-L61QVFV with PID 12756 (C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\serviceregistry\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\bachelor\period-3\project-in-computer-science\workspace\core-java-spring\serviceregistry)
+2022-06-20 15:17:50.560  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-06-20 15:18:04.582  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-06-20 15:18:05.162  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-20 15:18:06.629  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-06-20 15:18:06.644  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-06-20 15:18:06.916  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-06-20 15:18:09.646  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-06-20 15:18:09.654  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-06-20 15:18:10.643  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 20.796 seconds (JVM running for 22.706)
+2022-06-20 21:54:33.143  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=4h18m3s916ms101쨉s800ns).
+2022-06-20 21:54:56.971  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h18m3s915ms735쨉s900ns).
+2022-06-21 10:15:34.034  WARN DESKTOP-L61QVFV --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h41m6s773ms256쨉s700ns).
+2022-06-21 10:15:40.269  WARN DESKTOP-L61QVFV --- [l-2 housekeeper] c.z.h.p.HikariPool                       : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10h41m6s773ms632쨉s600ns).
+2022-07-08 11:17:36.852  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain on DESKTOP-L61QVFV with PID 13552 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\core-java-spring\serviceregistry\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\core-java-spring\serviceregistry)
+2022-07-08 11:17:36.875  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-07-08 11:17:50.810  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 11:17:51.297  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 11:17:52.738  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-07-08 11:17:52.753  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-07-08 11:17:53.035  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 11:17:55.415  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-07-08 11:17:55.416  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 11:17:56.230  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 20.344 seconds (JVM running for 22.016)
+2022-07-08 11:46:36.008  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain on DESKTOP-L61QVFV with PID 7920 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\serviceregistry\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\serviceregistry)
+2022-07-08 11:46:36.028  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-07-08 11:46:49.234  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 11:46:49.760  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 11:46:51.153  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-07-08 11:46:51.169  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-07-08 11:46:51.440  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 11:46:54.040  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-07-08 11:46:54.045  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 11:46:54.870  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 19.593 seconds (JVM running for 21.44)
+2022-07-08 13:29:11.133  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain on DESKTOP-L61QVFV with PID 10856 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\serviceregistry\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\serviceregistry)
+2022-07-08 13:29:11.159  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-07-08 13:29:27.319  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 13:29:27.824  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 13:29:29.354  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-07-08 13:29:29.370  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-07-08 13:29:29.660  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 13:29:32.066  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-07-08 13:29:32.067  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 13:29:32.893  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 22.612 seconds (JVM running for 24.474)
+2022-07-08 18:09:12.159  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain on DESKTOP-L61QVFV with PID 12884 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\serviceregistry\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\core-java-spring\serviceregistry)
+2022-07-08 18:09:12.176  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-07-08 18:09:30.068  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-08 18:09:30.669  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-08 18:09:32.395  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-07-08 18:09:32.420  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-07-08 18:09:33.157  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-08 18:09:36.193  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-07-08 18:09:36.195  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-08 18:09:37.034  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 25.8 seconds (JVM running for 27.624)
