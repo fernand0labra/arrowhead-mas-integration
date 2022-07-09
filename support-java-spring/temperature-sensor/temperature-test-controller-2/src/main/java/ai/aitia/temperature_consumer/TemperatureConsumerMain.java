@@ -107,6 +107,14 @@ public class TemperatureConsumerMain implements ApplicationRunner {
 			/* 												COAP CONSUMER												  */
 			/* ********************************************************************************************************** */
 			
+			System.out.println(
+					"***********************************************************************************************************\n\n" +
+					"PROVIDER SYSTEM: " + orchestrationResult.getProvider().getSystemName() + "\n" 
+							+ "\tPROTOCOL: COAP \n"
+							+ "\tADDRESS: " + orchestrationResult.getProvider().getAddress() + "\n"
+							+ "\tPORT: " + orchestrationResult.getProvider().getPort() + "\n"
+							+ "\tSERVICE: " + orchestrationResult.getServiceUri() + "\n");
+			
 			NetworkConfig config = NetworkConfig.createWithFile(TemperatureConsumerConstants.CONFIG_FILE, TemperatureConsumerConstants.CONFIG_HEADER, TemperatureConsumerConstants.DEFAULTS);
 			NetworkConfig.setStandard(config);
 			URI uri = null;

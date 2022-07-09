@@ -103,6 +103,14 @@ public class TemperatureConsumerMain implements ApplicationRunner {
 			/* 												HTTP CONSUMER												  */
 			/* ********************************************************************************************************** */
 			
+			System.out.println(
+					"***********************************************************************************************************\n\n" +
+					"PROVIDER SYSTEM: " + orchestrationResult.getProvider().getSystemName() + "\n" 
+							+ "\tPROTOCOL: HTTP \n"
+							+ "\tADDRESS: " + orchestrationResult.getProvider().getAddress() + "\n"
+							+ "\tPORT: " + orchestrationResult.getProvider().getPort() + "\n"
+							+ "\tSERVICE: " + orchestrationResult.getServiceUri() + "\n");
+			
 			final String[] queryParamUnit = {
 					orchestrationResult.getMetadata().get(TemperatureConsumerConstants.REQUEST_PARAM_KEY_UNIT),
 					"kelvin" };

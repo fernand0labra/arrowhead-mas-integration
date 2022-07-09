@@ -248,3 +248,13 @@
 2022-07-08 18:09:36.193  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
 2022-07-08 18:09:36.195  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
 2022-07-08 18:09:37.034  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 25.8 seconds (JVM running for 27.624)
+2022-07-09 17:39:21.380  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Starting ServiceRegistryMain on DESKTOP-L61QVFV with PID 9664 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\mas-ah-integration\core-java-spring\serviceregistry\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\mas-ah-integration\core-java-spring\serviceregistry)
+2022-07-09 17:39:21.417  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : No active profile set, falling back to default profiles: default
+2022-07-09 17:39:39.529  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-09 17:39:40.448  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-09 17:39:42.558  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Providers reachability task is not adjusted
+2022-07-09 17:39:42.574  INFO DESKTOP-L61QVFV --- [           main] .c.s.q.t.ProvidersReachabilityTaskConfig : Services end of validity task is not adjusted
+2022-07-09 17:39:42.989  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-09 17:39:46.647  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: SERVICEREGISTRY
+2022-07-09 17:39:46.649  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-09 17:39:47.451  INFO DESKTOP-L61QVFV --- [           main] e.a.c.s.ServiceRegistryMain              : Started ServiceRegistryMain in 27.3 seconds (JVM running for 29.171)

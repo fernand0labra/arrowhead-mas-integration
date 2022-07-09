@@ -101,6 +101,18 @@ public class InterfaceGeneratorService {
 			e.printStackTrace();
 		}
 		
+		System.out.println(
+				"***********************************************************************************************************\n\n" +
+				"GENERATED INTERFACE: \n" 
+						+ "\tADDRESS: " + metadataEndpoint.get("address") + "\n"
+						+ "\tPORT: " + metadataEndpoint.get("port") + "\n"
+						+ "\tCONSUMER\n" 
+							+ "\t\tSYSTEM: " + systems.get("consumer") + "\n"
+							+ "\t\tADDRESS: " + metadataConsumer.getProtocol() + "://127.0.0.1:8080" + "\n"
+						+ "\tPROVIDER\n" 
+							+ "\t\tSYSTEM: " + systems.get("provider") + "\n"
+							+ "\t\tADDRESS: " + metadataProvider.getProtocol() + "://127.0.0.1:8888" + "\n");
+		
 		return metadataEndpoint;
 	}
 

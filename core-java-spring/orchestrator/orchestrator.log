@@ -2387,3 +2387,26 @@ java.lang.NullPointerException: Cannot invoke "java.util.HashMap.get(Object)" be
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:832)
 2022-07-08 18:21:46.295 ERROR DESKTOP-L61QVFV --- [0.0-8441-exec-8] e.a.c.h.HttpService                      : UnavailableServerException occurred at http://127.0.0.1:8465/interfacegenerator/generate
+2022-07-09 17:41:19.030  INFO DESKTOP-L61QVFV --- [           main] e.a.c.o.OrchestratorMain                 : Starting OrchestratorMain on DESKTOP-L61QVFV with PID 11824 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\mas-ah-integration\core-java-spring\orchestrator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\mas-ah-integration\core-java-spring\orchestrator)
+2022-07-09 17:41:19.059  INFO DESKTOP-L61QVFV --- [           main] e.a.c.o.OrchestratorMain                 : No active profile set, falling back to default profiles: default
+2022-07-09 17:42:48.996  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-09 17:42:52.764  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-09 17:43:01.404  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-09 17:43:02.295  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.q.t.ReservationCheckTaskConfig   : Services reservation task adjusted with interval: 120 seconds
+2022-07-09 17:43:13.886  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: ORCHESTRATOR
+2022-07-09 17:43:13.887  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-09 17:43:14.048  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-09 17:43:14.753  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system ORCHESTRATOR published 8 service(s).
+2022-07-09 17:43:14.838  INFO DESKTOP-L61QVFV --- [           main] e.a.c.o.OrchestratorMain                 : Started OrchestratorMain in 119.531 seconds (JVM running for 129.405)
+2022-07-09 18:23:03.321  INFO DESKTOP-L61QVFV --- [           main] e.a.c.o.OrchestratorMain                 : Starting OrchestratorMain on DESKTOP-L61QVFV with PID 12968 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\mas-ah-integration\core-java-spring\orchestrator\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\mas-ah-integration\core-java-spring\orchestrator)
+2022-07-09 18:23:03.342  INFO DESKTOP-L61QVFV --- [           main] e.a.c.o.OrchestratorMain                 : No active profile set, falling back to default profiles: default
+2022-07-09 18:23:27.593  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-09 18:23:28.217  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-09 18:23:30.320  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-09 18:23:30.495  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.q.t.ReservationCheckTaskConfig   : Services reservation task adjusted with interval: 120 seconds
+2022-07-09 18:23:32.915  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: ORCHESTRATOR
+2022-07-09 18:23:32.917  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-09 18:23:33.072  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-09 18:23:33.654  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system ORCHESTRATOR published 8 service(s).
+2022-07-09 18:23:33.768  INFO DESKTOP-L61QVFV --- [           main] e.a.c.o.OrchestratorMain                 : Started OrchestratorMain in 32.135 seconds (JVM running for 34.577)
+2022-07-09 18:33:00.474 ERROR DESKTOP-L61QVFV --- [0.0-8441-exec-2] e.a.c.h.HttpService                      : UnavailableServerException occurred at http://127.0.0.1:8465/interfacegenerator/generate

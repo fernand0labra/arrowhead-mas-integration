@@ -28,8 +28,8 @@
 		<module>authorization</module>
 		<module>orchestrator</module>
 		<module>translator</module>
-		<module>mismatchanalysis</module>
 		<module>interfacegenerator</module>
+		<module>mismatchanalysis</module>
   	</modules>
   	
 	<properties>

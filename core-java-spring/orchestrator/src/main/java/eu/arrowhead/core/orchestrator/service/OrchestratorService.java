@@ -537,6 +537,13 @@ public class OrchestratorService {
 					selectedSystem.getProvider().setAddress(translatorResponseDTO.getIp());
 					selectedSystem.getProvider().setPort(translatorResponseDTO.getPort());
 					
+					System.out.println(
+							"***********************************************************************************************************\n\n" +
+							"NETWORK:\n" 
+									+ "\tPROVIDER ADDRESS: http://" + providerAddress + ":" + providerPort + "\n"
+									+ "\tCONSUMER ADDRESS: coap://" + consumerAddress + ":" + consumerPort + "\n"
+									+ "\tTRANSLATOR HUB ADDRESS: coap://" + selectedSystem.getProvider().getAddress() + ":" + selectedSystem.getProvider().getPort() + "\n");
+					
 					orList.clear();
 					orList.add(selectedSystem);
 				}
@@ -554,6 +561,14 @@ public class OrchestratorService {
 					
 					selectedSystem.getProvider().setAddress(generationResponseDTO.getMetadataEndpoint().get("address"));
 					selectedSystem.getProvider().setPort(Integer.valueOf(generationResponseDTO.getMetadataEndpoint().get("port")));
+					
+					System.out.println(
+							"***********************************************************************************************************\n\n" +
+							"NETWORK:\n" 
+									+ "\tPROVIDER ADDRESS: coap://" + providerAddress + ":" + providerPort + "\n"
+									+ "\tCONSUMER ADDRESS: http://" + request.getRequesterSystem().getAddress().replace(" ", "") + ":" + request.getRequesterSystem().getPort() + "\n"
+									+ "\tGENERATED INTERFACE: http://" + selectedSystem.getProvider().getAddress() + ":" + selectedSystem.getProvider().getPort() + "\n");
+
 					
 					orList.clear();
 					orList.add(selectedSystem);

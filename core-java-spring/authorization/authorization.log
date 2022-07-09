@@ -258,3 +258,13 @@
 2022-07-08 18:10:28.682  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
 2022-07-08 18:10:29.777  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
 2022-07-08 18:10:30.386  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 45.62 seconds (JVM running for 47.431)
+2022-07-09 17:41:08.501  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Starting AuthorizationMain on DESKTOP-L61QVFV with PID 2980 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\mas-ah-integration\core-java-spring\authorization\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\mas-ah-integration\core-java-spring\authorization)
+2022-07-09 17:41:08.583  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : No active profile set, falling back to default profiles: default
+2022-07-09 17:42:29.616  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-09 17:42:31.620  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-09 17:42:39.583  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-09 17:42:57.109  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: AUTHORIZATION
+2022-07-09 17:42:57.109  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-09 17:42:57.800  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-09 17:42:59.574  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system AUTHORIZATION published 5 service(s).
+2022-07-09 17:43:00.149  INFO DESKTOP-L61QVFV --- [           main] e.a.c.a.AuthorizationMain                : Started AuthorizationMain in 114.657 seconds (JVM running for 119.164)

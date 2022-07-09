@@ -50,6 +50,18 @@ public class TranslatorService {
                 logger.debug("Creating a new Hub: ClientSpoke type:" + consumerEP.getProtocol() + " ServerSpoke type: " + producerEP.getProtocol());
                 TranslatorHub hub = new TranslatorHub(translatorId, consumerEP, producerEP);                
                 hubs.put(translatorId, hub);
+                
+        		System.out.println(
+        				"***********************************************************************************************************\n\n" +
+        				"TRANSLATION HUB: \n" 
+        						+ "\tPORT: " + hub.getHubPort() + "\n"
+        						+ "\tCONSUMER\n" 
+        							+ "\t\tSYSTEM: " + consumerEP.getName() + "\n"
+        							+ "\t\tADDRESS: " + setup.getConsumerAddress() + "\n"
+        						+ "\tPROVIDER\n" 
+        							+ "\t\tSYSTEM: " + producerEP.getName() + "\n"
+        							+ "\t\tADDRESS: " + setup.getProducerAddress() + "\n");
+                
                 return new TranslatorHubAccess(hub.getTranslatorId(), outgoingIp, hub.getHubPort());
             }
         }

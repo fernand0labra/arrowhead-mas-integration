@@ -68,6 +68,13 @@ public class ProviderApplicationInitListener extends ApplicationInitListener {
 	//-------------------------------------------------------------------------------------------------
 	@Override
 	protected void customInit(final ContextRefreshedEvent event) {
+		System.out.println(
+				"***********************************************************************************************************\n\n" +
+				"PROVIDER SYSTEM: " + mySystemName + "\n" 
+						+ "\tPROTOCOL: COAP \n"
+						+ "\tADDRESS: " + mySystemAddress + "\n"
+						+ "\tPORT: " + mySystemPort + "\n");
+		
 		checkConfiguration();
 		
 		//Checking the availability of necessary core systems
