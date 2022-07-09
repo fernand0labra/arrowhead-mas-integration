@@ -27,7 +27,7 @@ When the flag received is ALTER_G, the Orchestrator builds a request object and 
 
 Due to the use of the AH version 4.3.0, the Translator code was not complete and did not follow the compliant structure of the AH support systems. Moreover, some issues regarding query and protocol support as well as url building led to the editing of its code so that it would correctly work when called. The orchestrator was edited for performing Translator requests and handling its responses.
 
-## MAS - IGS Integration
+## MAS - IGS Integration ([Link to Video](https://youtu.be/UbYFUnEFCoc))
 
 The Interface Generator System was still at an early stage of coding structure. Due to this factor, cleaning and project reshaping was performed in order to easily understand its code and follow the compliant structure of an AH system. The cleaning included mostly absolute path transformation and naming conventions while the structure reshaping included the generation of code within the project for reducing the complexity of the process. As with the Translator, the Orchestrator was edited for performing requests and handling its responses.
 
