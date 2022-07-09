@@ -3,8 +3,8 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [MAS Integration](#mas-integration)
-- [MAS - Translator Integration](#translator-integration)
-- [MAS - IGS Integration](#igs-integration)
+- [MAS - Translator Integration](#mas-translator-integration)
+- [MAS - IGS Integration](#mas-igs-integration)
 - [Scenarios](#scenarios)
 
 ## Introduction
@@ -23,7 +23,7 @@ When the flag received is ALTER_T, the Orchestrator builds a request object and 
 
 When the flag received is ALTER_G, the Orchestrator builds a request object and sends it to the IGS. This one would generate a jar and execute it in parallel for handling the consuming requests and return its address to the Orchestrator that would update the orchestration result responded to the consumer.
 
-## AH Translator Integration
+## AH Translator Integration ([Link to Video](https://web.microsoftstream.com/video/8ec7b31e-b2ca-4a4c-a8f9-1f8af9351d3a))
 
 Due to the use of the AH version 4.3.0, the Translator code was not complete and did not follow the compliant structure of the AH support systems. Moreover, some issues regarding query and protocol support as well as url building led to the editing of its code so that it would correctly work when called. The orchestrator was edited for performing Translator requests and handling its responses.
 
@@ -37,6 +37,7 @@ There are two tested scenarios for consumer and provider systems that effectivel
 * The first one emulates a difference in the protocol of the communication, where the consumer performs a request using COAP while the provider expects an HTTP request. The MAS after analysing the service contracts of both systems, responds the Orchestrator with an ALTER_T flag what sequentially makes it call the Translator. This one would create a translation hub and return its address, which in turn would be the one received by the consumer. 
   - **Consumer**: COAP
   - **Provider**: HTTP
+  
 * The second one emulates a difference in the protocol and the encoding of the communication. The consumer system performs a request with HTTP and JSON while the provider expects COAP and XML. The MAS again analyses both service contracts, but this time responds an ALTER_G flag making the Orchestrator call the IGS. This one would dynamically create the consumer code for a correct request and return an address to the executing created server that would handle the communication.
   - **Consumer**: HTTP/JSON
   - **Provider**: COAP/XML
