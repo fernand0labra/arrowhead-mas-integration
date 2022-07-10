@@ -27,9 +27,40 @@ When the flag received is ALTER_G, the Orchestrator builds a request object and 
 
 Due to the use of the AH version 4.3.0, the Translator code was not complete and did not follow the compliant structure of the AH support systems. Moreover, some issues regarding query and protocol support as well as url building led to the editing of its code so that it would correctly work when called. The orchestrator was edited for performing Translator requests and handling its responses.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/70638694/178143445-9b7b5f93-bdaa-403c-8587-9b9ed32b3ad7.png"/>
+</p>
+
+The previous figure displays the different stages performed during the exchange of communciation between a consumer and a provider:
+1. Consumer requests service consumption (with an MAS flag).
+2. Orchestrator requests SC analysis.
+3. MAS returns an **ALTER_T** flag.
+4. Orchestrator requests hub creation to the Translator and receives endpoint.
+5. Orchestrator returns orchestration result to the consumer updated with the hub's endpoint.
+6. Consumer requests service consumption (COAP).
+7. Translator hub requests service consumption (HTTP).
+8. Provider returns response (HTTP).
+9. Translator hub returns response (COAP).
+
 ## MAS - IGS Integration ([Link to Video](https://youtu.be/UbYFUnEFCoc))
 
 The Interface Generator System was still at an early stage of coding structure. Due to this factor, cleaning and project reshaping was performed in order to easily understand its code and follow the compliant structure of an AH system. The cleaning included mostly absolute path transformation and naming conventions while the structure reshaping included the generation of code within the project for reducing the complexity of the process. As with the Translator, the Orchestrator was edited for performing requests and handling its responses.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/70638694/178144248-8e70d1fd-cc60-4778-86a2-0d2187b46fd8.png"/>
+</p>
+
+The previous figure displays the different stages performed during the exchange of communciation between a consumer and a provider:
+1. Consumer requests service consumption (with an MAS flag).
+2. Orchestrator requests SC analysis.
+3. MAS returns an **ALTER_G** flag.
+4. Orchestrator requests interface generation to the IGS.
+5. The IGS compiles the new interface, executes a server on a parallel thread and returns endpoint.
+6. Orchestrator returns orchestration result to the consumer updated with the generated interface endpoint.
+7. Consumer requests service consumption (HTTP/JSON).
+8. The generated interface requests service consumption (COAP/XML).
+9. Provider returns response (COAP/XML).
+10. The generated interface returns response (HTTP/JSON).
 
 ## Scenarios
 
