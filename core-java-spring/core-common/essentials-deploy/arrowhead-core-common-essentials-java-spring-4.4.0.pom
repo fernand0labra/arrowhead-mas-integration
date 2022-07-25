@@ -5,7 +5,7 @@
   
 	<groupId>ai.aitia</groupId>
 	<artifactId>arrowhead-core-common-essentials-java-spring</artifactId>
-	<version>VERSION</version>
+	<version>4.4.0</version>
   
 	<name>Arrowhead Core Common Essentials for Java Spring</name>
 	<description>Extracted components from Arrowhead Core Common for application systems</description>
