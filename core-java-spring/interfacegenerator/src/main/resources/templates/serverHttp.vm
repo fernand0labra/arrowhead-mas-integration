@@ -13,7 +13,7 @@ import org.glassfish.jersey.servlet.ServletContainer;
 
 class ServerApplication {
   public static void main(final String[] args) throws Exception {
-    InetAddress address = InetAddress.getByAddress(new byte[] {(byte)127,(byte)0,(byte)0,(byte)1});
+    InetAddress address = InetAddress.getByAddress(new byte[] {(byte)192,(byte)168,(byte)1,(byte)77});
     System.out.println("IP address: " + address.getHostAddress());
               System.out.println("Computer Name:"+address.getHostName());;
     InetSocketAddress socketAddress = new InetSocketAddress(address,${port});

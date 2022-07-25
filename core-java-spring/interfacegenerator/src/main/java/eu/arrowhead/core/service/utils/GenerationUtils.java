@@ -180,7 +180,7 @@ public class GenerationUtils {
 				
 				metadataEndpoint.put("protocol", "COAP");
 				metadataEndpoint.put("port", "64130");
-				metadataEndpoint.put("address", "127.0.0.1");
+				metadataEndpoint.put("address", "192.168.1.77");
 				
 				Writer writer = new FileWriter(new File( "src/main/java/generatedinterface/src/main/java/ServerApplication.java"));
 				
@@ -194,7 +194,7 @@ public class GenerationUtils {
 
 				metadataEndpoint.put("protocol", "HTTP");
 				metadataEndpoint.put("port", "8466");
-				metadataEndpoint.put("address", "127.0.0.1");
+				metadataEndpoint.put("address", "192.168.1.77");
 				
 				Writer writer = new FileWriter(new File( "src/main/java/generatedinterface/src/main/java/ServerApplication.java"));
 				

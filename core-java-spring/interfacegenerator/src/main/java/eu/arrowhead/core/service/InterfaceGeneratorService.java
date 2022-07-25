@@ -108,10 +108,10 @@ public class InterfaceGeneratorService {
 						+ "\tPORT: " + metadataEndpoint.get("port") + "\n"
 						+ "\tCONSUMER\n" 
 							+ "\t\tSYSTEM: " + systems.get("consumer") + "\n"
-							+ "\t\tADDRESS: " + metadataConsumer.getProtocol() + "://127.0.0.1:8080" + "\n"
+							+ "\t\tADDRESS: " + metadataConsumer.getProtocol() + "://192.168.1.44:8080" + "\n"
 						+ "\tPROVIDER\n" 
 							+ "\t\tSYSTEM: " + systems.get("provider") + "\n"
-							+ "\t\tADDRESS: " + metadataProvider.getProtocol() + "://127.0.0.1:8888" + "\n");
+							+ "\t\tADDRESS: " + metadataProvider.getProtocol() + "://192.168.1.55:8888" + "\n");
 		
 		return metadataEndpoint;
 	}
@@ -126,7 +126,7 @@ public class InterfaceGeneratorService {
 		
 		processBuilder
 			.directory(null)
-			.command(("src/main/resources/execution/init.bat"));
+			.command(("src/main/resources/execution/init.sh"));
 		
 		try {
 			Process process = processBuilder.start();
