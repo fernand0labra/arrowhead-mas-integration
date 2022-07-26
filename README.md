@@ -67,7 +67,7 @@ The previous figure displays the different stages performed during the exchange 
 There are two tested scenarios for consumer and provider systems that effectively allow an exchange of information during runtime. The testing has included time measuring on a local network displayed in the following figure, as well as on the localhost. The local network has been built by the use of 4 RaspberryPis that would execute respectively (1) the consumer system, (2) the provider system, (3) the core systems and (4) the support systems.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/70638694/180997326-e6672a48-5120-499e-8d26-9e2e1e7fd01c.png"/>
+  <img src="https://user-images.githubusercontent.com/70638694/181079069-3f5648cc-71c7-4c98-a057-00ca7344a07a.png"/>
 </p>
 
 For the database management in a Linux distribution, [SquirrelSQL](https://github.com/squirrel-sql-client) has been used. In the following image an extract of the *system_* table can be seen displaying the aforementioned network distribution.
@@ -83,19 +83,27 @@ The first scenario emulates a difference in the protocol of the communication, w
   - **Provider**: HTTP
 
 The results in the local network display a mean execution time of 842.2317 milliseconds of the consumer system when the Translator Hub needs to be created where as a mean execution time of 721.9595 milliseconds when the Translator Hub is already created, a 16.66% quicker. The overall tendency goes towards a lower time due to the cached operations of all the systems in the local cloud.
+ 
+The results in a single machine (i.e.  localhost) show a mean execution time of 241.1139 milliseconds of the consumer system without the Translator Hub and a mean execution time of 158.0973 milliseconds with the Translator Hub, 52.51% quicker. Considerations towards the improvement of execution time between the local network and the localhost will not be given as the real scenario is emulated by the first.
+ 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/70638694/181079375-127789d5-8793-4a51-b3c7-a250fbeedf85.png"/>
+</p> 
+
+As for the MAS in the local network, the results show a mean service execution time of 502.4497 milliseconds on startup (that is when the system has been initialized), in contrast with a mean execution time of 54.2956 milliseconds with cached operations, slightly more than 9 times faster. With the localhost there is a mean service execution time of 124.9136 milliseconds on startup and 61.0195 milliseconds with cached operations.
   
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/70638694/180998815-379bb199-66fa-4dd7-8e28-4e1fbf5868f6.png" width="600"/>
-</p>
-  
-As for the MAS, the results show a mean service execution time of 502.4497 milliseconds on startup time, that is when the system has been initialized, in contrast with a mean execution time of 54.2956 milliseconds with cached operations.
-  
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/70638694/181001176-66cc8cbe-8e01-48bd-892e-c2520b65a40a.png" width="600"/>
-</p>  
+  <img src="https://user-images.githubusercontent.com/70638694/181079702-8c64de92-91d1-4379-ab0d-97ba89769268.png"/>
+</p> 
 
 ### Protocol and Encoding Mismatch
 
 The second scenario emulates a difference in the protocol and the encoding of the communication. The consumer system performs a request with HTTP and JSON while the provider expects COAP and XML. The MAS again analyses both service contracts, but this time responds an ALTER_G flag making the Orchestrator call the IGS. This one would dynamically create the consumer code for a correct request and return an address to the executing created server that would handle the communication.
   - **Consumer**: HTTP/JSON
   - **Provider**: COAP/XML
+
+The results have shown that the IGS, although works as intended, has a very high service execution time that does not allow for the consumer to complete the request when deployed on a local network, due to a mean of 40.0539 seconds. However, the information exchange is correctly performed with the localhost (as seen in the video) by a mean service execution time of 15.1317 seconds. The timing difference is due to the hardware capabilities of the machine in which it was deployed. The local network is based on RPis where as the single machine is a personal computer.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/70638694/181079142-c0dd5cb7-8bc0-4043-8a0b-1441771a9d8a.png"/>
+</p>
