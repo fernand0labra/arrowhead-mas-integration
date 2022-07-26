@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
+import java.time.Duration;
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -52,6 +54,8 @@ public class InterfaceGeneratorService {
 	// -------------------------------------------------------------------------------------------------
 	public HashMap<String, String> generateInterface(String serviceDefinition, HashMap<String, String> systems, String providerURL) throws GenerationException, ClassNotFoundException {
 
+		Instant beforeService = Instant.now();
+		
 		metadataConsumer = CDLUtils.parseFile(serviceDefinition, systems.get("consumer"));
 		Boolean validConsumerMetadata = metadataValidation(metadataConsumer);
 		
@@ -101,6 +105,10 @@ public class InterfaceGeneratorService {
 			e.printStackTrace();
 		}
 		
+		Instant afterService = Instant.now();
+		
+		long elapsedTime = Duration.between(beforeService, afterService).toMillis();
+		
 		System.out.println(
 				"***********************************************************************************************************\n\n" +
 				"GENERATED INTERFACE: \n" 
@@ -112,6 +120,12 @@ public class InterfaceGeneratorService {
 						+ "\tPROVIDER\n" 
 							+ "\t\tSYSTEM: " + systems.get("provider") + "\n"
 							+ "\t\tADDRESS: " + metadataProvider.getProtocol() + "://192.168.1.55:8888" + "\n");
+		
+		System.out.println(
+				"***********************************************************************************************************\n\n" +
+				"SERVICE ELAPSED TIME: \n"
+						+ "\t" + String.valueOf(elapsedTime) + "\n");
+						
 		
 		return metadataEndpoint;
 	}

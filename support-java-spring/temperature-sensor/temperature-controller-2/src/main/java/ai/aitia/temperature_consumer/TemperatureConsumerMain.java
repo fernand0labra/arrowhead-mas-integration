@@ -3,6 +3,8 @@ package ai.aitia.temperature_consumer;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.time.Duration;
+import java.time.Instant;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -122,11 +124,22 @@ public class TemperatureConsumerMain implements ApplicationRunner {
 //					orchestrationResult.getProvider().getAddress(), orchestrationResult.getProvider().getPort(),
 //					orchestrationResult.getServiceUri(), getInterface(), token, null, queryParamUnit);
 			
+			Instant beforeRequest = Instant.now();
+			
 			final TemperatureResponseDTO temperatureResponseDTO = arrowheadService.consumeServiceHTTP(
 					TemperatureResponseDTO.class,
 					HttpMethod.valueOf(orchestrationResult.getMetadata().get(TemperatureConsumerConstants.HTTP_METHOD)),
 					orchestrationResult.getProvider().getAddress(), orchestrationResult.getProvider().getPort(),
 					orchestrationResult.getServiceUri(), "HTTP-INSECURE-JSON", token, null, queryParamUnit);
+			
+			Instant afterRequest = Instant.now();
+			
+			long elapsedTime = Duration.between(beforeRequest, afterRequest).toMillis();
+			
+			System.out.println(
+					"***********************************************************************************************************\n\n" +
+					"REQUEST ELAPSED TIME: \n"
+							+ "\t" + String.valueOf(elapsedTime) + "\n");
 			
 			printOut(temperatureResponseDTO);
 

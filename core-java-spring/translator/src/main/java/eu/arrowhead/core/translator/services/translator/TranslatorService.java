@@ -5,6 +5,9 @@ import eu.arrowhead.core.translator.services.translator.common.TranslatorSetup;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import eu.arrowhead.core.translator.services.translator.common.TranslatorHubAccess;
 import eu.arrowhead.core.translator.services.translator.common.TranslatorDef.EndPoint;
+
+import java.time.Duration;
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -28,7 +31,9 @@ public class TranslatorService {
     }
 
     //-------------------------------------------------------------------------------------------------
-    public TranslatorHubAccess createTranslationHub(TranslatorSetup setup, String outgoingIp) throws Exception {    	
+    public TranslatorHubAccess createTranslationHub(TranslatorSetup setup, String outgoingIp) throws Exception {   
+    	Instant beforeService = Instant.now();
+    	
         logger.debug("create Translation Hub");
         logger.debug("ip: " + outgoingIp);
         logger.debug("setup: " + new ObjectMapper().writeValueAsString(setup));      
@@ -62,6 +67,15 @@ public class TranslatorService {
         							+ "\t\tSYSTEM: " + producerEP.getName() + "\n"
         							+ "\t\tADDRESS: " + setup.getProducerAddress() + "\n");
                 
+        		Instant afterService = Instant.now();
+        		
+        		long elapsedTime = Duration.between(beforeService, afterService).toMillis();
+        		
+        		System.out.println(
+        				"***********************************************************************************************************\n\n" +
+        				"SERVICE ELAPSED TIME: \n"
+        						+ "\t" + String.valueOf(elapsedTime) + "\n");
+        		
                 return new TranslatorHubAccess(hub.getTranslatorId(), outgoingIp, hub.getHubPort());
             }
         }

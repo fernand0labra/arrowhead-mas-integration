@@ -3,6 +3,8 @@ package ai.aitia.temperature_consumer;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.time.Duration;
+import java.time.Instant;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -134,6 +136,8 @@ public class TemperatureConsumerMain implements ApplicationRunner {
 			CoapClient coapClient = new CoapClient(uri);
 			CoapResponse coapResponse = null;
 
+			Instant beforeRequest = Instant.now();
+			
 			try {
 				coapResponse = coapClient.get();
 			} catch (ConnectorException | IOException e) {
@@ -150,6 +154,16 @@ public class TemperatureConsumerMain implements ApplicationRunner {
 					
 					try {
 						TemperatureResponseDTO temperatureResponse = objectMapper.readValue(responseByte, TemperatureResponseDTO.class);
+						
+						Instant afterRequest = Instant.now();
+						
+						long elapsedTime = Duration.between(beforeRequest, afterRequest).toMillis();
+						
+						System.out.println(
+								"***********************************************************************************************************\n\n" +
+								"REQUEST ELAPSED TIME: \n"
+										+ "\t" + String.valueOf(elapsedTime) + "\n");
+						
 						logger.info("RESPONSE: \n\t" + responseText 
 								+ "\n\t temperature: " + temperatureResponse.getTemperature()
 								+ "\n\t time: " + temperatureResponse.getTime()
