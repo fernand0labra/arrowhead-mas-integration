@@ -64,11 +64,38 @@ The previous figure displays the different stages performed during the exchange 
 
 ## Scenarios
 
-There are two tested scenarios for consumer and provider systems that effectively allow an exchange of information during runtime:
-* The first one emulates a difference in the protocol of the communication, where the consumer performs a request using COAP while the provider expects an HTTP request. The MAS after analysing the service contracts of both systems, responds the Orchestrator with an ALTER_T flag what sequentially makes it call the Translator. This one would create a translation hub and return its address, which in turn would be the one received by the consumer. 
+There are two tested scenarios for consumer and provider systems that effectively allow an exchange of information during runtime. The testing has included time measuring on a local network displayed in the following figure, as well as on the localhost. The local network has been built by the use of 4 RaspberryPis that would execute respectively (1) the consumer system, (2) the provider system, (3) the core systems and (4) the support systems.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/70638694/180997326-e6672a48-5120-499e-8d26-9e2e1e7fd01c.png"/>
+</p>
+
+For the database management in a Linux distribution, [SquirrelSQL](https://github.com/squirrel-sql-client) has been used. In the following image an extract of the *system_* table can be seen displaying the aforementioned network distribution.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/70638694/180997902-75008d65-2871-4d79-b7b3-6d62b75ecd73.png"/>
+</p>
+
+### Protocol Mismatch
+
+The first scenario emulates a difference in the protocol of the communication, where the consumer performs a request using COAP while the provider expects an HTTP request. The MAS after analysing the service contracts of both systems, responds the Orchestrator with an ALTER_T flag what sequentially makes it call the Translator. This one would create a translation hub and return its address, which in turn would be the one received by the consumer. 
   - **Consumer**: COAP
   - **Provider**: HTTP
+
+The results in the local network display a mean execution time of 842.2317 milliseconds of the consumer system when the Translator Hub needs to be created where as a mean execution time of 721.9595 milliseconds when the Translator Hub is already created, a 16.66% quicker. The overall tendency goes towards a lower time due to the cached operations of all the systems in the local cloud.
   
-* The second one emulates a difference in the protocol and the encoding of the communication. The consumer system performs a request with HTTP and JSON while the provider expects COAP and XML. The MAS again analyses both service contracts, but this time responds an ALTER_G flag making the Orchestrator call the IGS. This one would dynamically create the consumer code for a correct request and return an address to the executing created server that would handle the communication.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/70638694/180998815-379bb199-66fa-4dd7-8e28-4e1fbf5868f6.png" width="600"/>
+</p>
+  
+As for the MAS, the results show a mean service execution time of 502.4497 milliseconds on startup time, that is when the system has been initialized, in contrast with a mean execution time of 54.2956 milliseconds with cached operations.
+  
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/70638694/181001176-66cc8cbe-8e01-48bd-892e-c2520b65a40a.png" width="600"/>
+</p>  
+
+### Protocol and Encoding Mismatch
+
+The second scenario emulates a difference in the protocol and the encoding of the communication. The consumer system performs a request with HTTP and JSON while the provider expects COAP and XML. The MAS again analyses both service contracts, but this time responds an ALTER_G flag making the Orchestrator call the IGS. This one would dynamically create the consumer code for a correct request and return an address to the executing created server that would handle the communication.
   - **Consumer**: HTTP/JSON
   - **Provider**: COAP/XML
