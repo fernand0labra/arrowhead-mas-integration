@@ -23,6 +23,10 @@ When the flag received is ALTER_T, the Orchestrator builds a request object and 
 
 When the flag received is ALTER_G, the Orchestrator builds a request object and sends it to the IGS. This one would generate a jar and execute it in parallel for handling the consuming requests and return its address to the Orchestrator that would update the orchestration result responded to the consumer.
 
+### PDF Generation add-on
+
+For saving engineering efforts in identifying the differences between the service definitions of two contracts, a PDF generation with the proper information displaying the mismatches and uncertainty has been added. One sample can be found [through this link](https://github.com/fernand0labra/mas-ah-integration/blob/main/core-java-spring/mismatchanalysis/mismatch-analysis.pdf). The shown PDF has been generated during the call that would return the ALTER_G flag. 
+
 ## MAS - Translator Integration ([Link to Video](https://youtu.be/aTH2UHaNN6Y))
 
 Due to the use of the AH version 4.3.0, the Translator code was not complete and did not follow the compliant structure of the AH support systems. Moreover, some issues regarding query and protocol support as well as url building led to the editing of its code so that it would correctly work when called. The orchestrator was edited for performing Translator requests and handling its responses.
