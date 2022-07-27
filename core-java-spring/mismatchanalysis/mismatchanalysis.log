@@ -555,3 +555,13 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 2022-07-09 17:43:12.218  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
 2022-07-09 17:43:12.747  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
 2022-07-09 17:43:13.526  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 109.937 seconds (JVM running for 122.208)
+2022-07-27 20:58:14.397  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Starting MismatchAnalysisMain on DESKTOP-L61QVFV with PID 16660 (C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\mas-ah-integration\core-java-spring\mismatchanalysis\target\classes started by UO269757 in C:\Users\UO269757\Desktop\ltu\2022-summer-job\workspace\mas-ah-integration\core-java-spring\mismatchanalysis)
+2022-07-27 20:58:14.472  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : No active profile set, falling back to default profiles: default
+2022-07-27 20:59:02.436  INFO DESKTOP-L61QVFV --- [           main] e.a.c.q.u.UriCrawlerTaskConfig           : URI Crawler task scheduled.
+2022-07-27 20:59:03.297  WARN DESKTOP-L61QVFV --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-27 20:59:05.466  INFO DESKTOP-L61QVFV --- [           main] e.a.c.f.ArrowheadFilter                  : PayloadSizeFilter is active
+2022-07-27 20:59:07.725  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system name: MISMATCHANALYSIS
+2022-07-27 20:59:07.726  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Server mode: NOT SECURED
+2022-07-27 20:59:07.858  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Service Registry is accessible...
+2022-07-27 20:59:08.119  INFO DESKTOP-L61QVFV --- [           main] e.a.c.ApplicationInitListener            : Core system MISMATCHANALYSIS published 1 service(s).
+2022-07-27 20:59:08.700  INFO DESKTOP-L61QVFV --- [           main] e.a.c.m.MismatchAnalysisMain             : Started MismatchAnalysisMain in 56.429 seconds (JVM running for 62.92)

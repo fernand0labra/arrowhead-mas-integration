@@ -1,9 +1,12 @@
 package eu.arrowhead.core.service.modules.decision;
 
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map.Entry;
+
+import com.itextpdf.text.DocumentException;
 
 import eu.arrowhead.core.service.entity.Analysis;
 
@@ -108,6 +111,12 @@ public class DecisionMain {
 			// If the next analysis with the highest compatibility is positive
 			if(!analysis.getFlag().equals("NOT_OK") && analysis.getQuantitativeM() > finalAnalysis.getQuantitativeM()) {
 				finalAnalysis = analysis;
+			}
+			
+			try {
+				analysis.generateDocument();
+			} catch (FileNotFoundException | DocumentException e) {
+				e.printStackTrace();
 			}
 			
 			System.out.println(analysis.toString());

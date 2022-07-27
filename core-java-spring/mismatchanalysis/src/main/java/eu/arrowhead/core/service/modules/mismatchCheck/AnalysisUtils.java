@@ -37,7 +37,8 @@ public class AnalysisUtils {
 		
 		analysis.setSystem(provider.getSystem());
 		analysis.setService(provider.getService());
-		
+		analysis.setConsumer(consumer);
+		analysis.setProvider(provider);
 		
 		HashMap<String, Boolean> semanticConditions = new HashMap<String, Boolean>();
 
